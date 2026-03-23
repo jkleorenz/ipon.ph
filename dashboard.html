@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ipon.ph — Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0d0f14;
+    --surface: #13161d;
+    --card: #191d27;
+    --border: rgba(255,255,255,0.07);
+    --gold: #e8b84b;
+    --gold-dim: rgba(232,184,75,0.12);
+    --gold-mid: rgba(232,184,75,0.3);
+    --text: #f0ede6;
+    --muted: #7a7f90;
+    --green: #3ecf8e;
+    --red: #f06060;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.5s ease, transform 0.5s cubic-bezier(0.22,1,0.36,1);
+  }
+  body.ready { opacity: 1; transform: translateY(0); }
+  body.exit  { opacity: 0; transform: translateY(-20px); transition: opacity 0.3s ease, transform 0.3s ease; }
+
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none; z-index: 0; opacity: 0.5;
+  }
+
+  .app { position: relative; z-index: 1; max-width: 1100px; margin: 0 auto; padding: 0 24px 80px; }
+
+  /* HEADER */
+  header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 32px 0 40px; border-bottom: 1px solid var(--border);
+  }
+  .logo { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 900; letter-spacing: -0.5px; color: var(--gold); }
+  .logo span { color: var(--text); font-weight: 400; }
+
+  .header-right { display: flex; align-items: center; gap: 12px; }
+  .header-user {
+    display: flex; align-items: center; gap: 10px;
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 12px; padding: 8px 14px;
+  }
+  .header-avatar {
+    width: 30px; height: 30px; border-radius: 50%;
+    background: var(--gold); display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 700; color: #0d0f14; flex-shrink: 0;
+  }
+  .header-name { font-size: 13px; font-weight: 500; }
+  .btn-logout {
+    background: none; border: 1px solid var(--border); border-radius: 10px;
+    padding: 9px 16px; color: var(--muted); font-family: 'DM Sans', sans-serif;
+    font-size: 13px; cursor: pointer; transition: all 0.15s;
+  }
+  .btn-logout:hover { border-color: var(--red); color: var(--red); background: rgba(240,96,96,0.05); }
+
+  /* TOTAL BANNER */
+  .total-banner {
+    margin: 40px 0 28px;
+    background: linear-gradient(135deg, #1a1f2e 0%, #161a24 100%);
+    border: 1px solid var(--border); border-radius: 20px; padding: 36px 40px;
+    position: relative; overflow: hidden;
+    animation: fadeUp 0.5s ease 0.15s both;
+  }
+  .total-banner::before {
+    content: ''; position: absolute; top: -60px; right: -60px;
+    width: 240px; height: 240px;
+    background: radial-gradient(circle, var(--gold-mid) 0%, transparent 70%); pointer-events: none;
+  }
+  .total-banner::after {
+    content: 'IPON'; position: absolute; right: 36px; bottom: 16px;
+    font-family: 'Playfair Display', serif; font-size: 72px; font-weight: 900;
+    color: rgba(232,184,75,0.04); letter-spacing: 6px; pointer-events: none;
+  }
+  .total-label { font-size: 11px; letter-spacing: 2.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 12px; }
+  .total-amount { font-family: 'Playfair Display', serif; font-size: 54px; font-weight: 700; color: var(--gold); letter-spacing: -1.5px; line-height: 1; }
+  .total-meta { margin-top: 18px; display: flex; gap: 28px; flex-wrap: wrap; }
+  .total-meta-item { font-size: 13px; color: var(--muted); }
+  .total-meta-item strong { color: var(--text); font-weight: 500; }
+
+  /* SUMMARY */
+  .summary-row { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 36px; }
+  .summary-pill {
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 14px; padding: 16px 22px; flex: 1; min-width: 140px;
+    animation: fadeUp 0.5s ease both;
+  }
+  .summary-pill-label { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; }
+  .summary-pill-value { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 700; }
+  .summary-pill-value.green { color: var(--green); }
+  .summary-pill-value.gold  { color: var(--gold); }
+
+  /* SECTION */
+  .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+  .section-title { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; }
+  .section-title span { color: var(--gold); }
+  .btn-add {
+    background: var(--gold); color: #0d0f14; border: none; border-radius: 10px;
+    padding: 10px 20px; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600;
+    cursor: pointer; transition: all 0.2s; display: flex; align-items: center; gap: 6px;
+  }
+  .btn-add:hover { background: #f0c85a; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(232,184,75,0.2); }
+
+  /* BANK CARDS */
+  .banks-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; margin-bottom: 40px; }
+  .bank-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 24px;
+    position: relative; overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+    animation: fadeUp 0.4s ease both;
+  }
+  .bank-card:hover { transform: translateY(-3px); border-color: rgba(232,184,75,0.2); box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
+  .bank-card.has-balance::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--gold), transparent);
+  }
+  .bank-card-top { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 20px; }
+  .bank-icon { width: 46px; height: 46px; border-radius: 13px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .bank-actions { display: flex; gap: 6px; }
+  .btn-icon {
+    background: none; border: 1px solid var(--border); border-radius: 8px;
+    width: 32px; height: 32px; cursor: pointer; color: var(--muted);
+    display: flex; align-items: center; justify-content: center; transition: all 0.15s; font-size: 14px;
+  }
+  .btn-icon:hover { border-color: var(--gold); color: var(--gold); background: var(--gold-dim); }
+  .btn-icon.delete:hover { border-color: var(--red); color: var(--red); background: rgba(240,96,96,0.08); }
+  .bank-name { font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 2px; }
+  .bank-abbr { font-size: 11px; color: var(--muted); }
+  .bank-balance-label { font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+  .bank-balance { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 700; transition: color 0.3s; }
+  .bank-balance.has-value { color: var(--gold); }
+  .bank-balance.zero { color: rgba(122,127,144,0.4); }
+  .bank-bar-wrap { margin-top: 16px; }
+  .bank-bar-bg { height: 4px; background: rgba(255,255,255,0.05); border-radius: 99px; overflow: hidden; }
+  .bank-bar { height: 100%; border-radius: 99px; transition: width 0.7s cubic-bezier(0.34,1.56,0.64,1); }
+  .bank-bar-pct { font-size: 11px; color: var(--muted); margin-top: 6px; text-align: right; }
+
+  .empty-card {
+    grid-column: 1/-1; text-align: center; padding: 60px 24px;
+    border: 1px dashed var(--border); border-radius: 16px; color: var(--muted);
+  }
+  .empty-card .empty-icon { font-size: 40px; margin-bottom: 14px; }
+  .empty-card p { font-size: 14px; }
+
+  /* MODAL */
+  .modal-overlay {
+    position: fixed; inset: 0; z-index: 100;
+    background: rgba(0,0,0,0.75); backdrop-filter: blur(8px);
+    display: flex; align-items: center; justify-content: center;
+    padding: 20px; animation: fadeIn 0.2s ease;
+  }
+  .modal-overlay.hidden { display: none; }
+  .modal {
+    background: var(--card); border: 1px solid rgba(232,184,75,0.15);
+    border-radius: 22px; width: 100%; max-width: 440px;
+    padding: 34px; animation: slideUp 0.28s cubic-bezier(0.22,1,0.36,1);
+    box-shadow: 0 32px 80px rgba(0,0,0,0.5);
+  }
+  .modal-title { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; margin-bottom: 6px; }
+  .modal-sub { color: var(--muted); font-size: 13px; margin-bottom: 28px; }
+
+  .form-group { margin-bottom: 18px; }
+  .form-label { display: block; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted); margin-bottom: 8px; font-weight: 500; }
+  .form-control {
+    width: 100%; background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 13px 16px; color: var(--text);
+    font-family: 'DM Sans', sans-serif; font-size: 15px; outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .form-control:focus { border-color: rgba(232,184,75,0.5); box-shadow: 0 0 0 3px rgba(232,184,75,0.08); }
+  .form-control option { background: #1a1f2e; }
+
+  .amount-wrap { position: relative; }
+  .amount-prefix { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--gold); font-weight: 600; font-size: 15px; }
+  .amount-wrap .form-control { padding-left: 32px; }
+
+  .modal-footer { display: flex; gap: 10px; margin-top: 24px; }
+  .btn-cancel {
+    flex: 1; background: none; border: 1px solid var(--border); border-radius: 10px;
+    padding: 13px; color: var(--muted); cursor: pointer;
+    font-family: 'DM Sans', sans-serif; font-size: 14px; transition: all 0.15s;
+  }
+  .btn-cancel:hover { border-color: var(--muted); color: var(--text); }
+  .btn-save {
+    flex: 2; background: var(--gold); border: none; border-radius: 10px;
+    padding: 13px; color: #0d0f14; cursor: pointer;
+    font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 700; transition: all 0.2s;
+  }
+  .btn-save:hover { background: #f0c85a; }
+
+  /* TOAST */
+  .toast {
+    position: fixed; bottom: 28px; right: 28px; z-index: 200;
+    background: var(--card); border: 1px solid rgba(232,184,75,0.4);
+    border-radius: 12px; padding: 14px 20px; font-size: 13px; color: var(--text);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    transform: translateY(80px); opacity: 0;
+    transition: all 0.35s cubic-bezier(0.34,1.56,0.64,1); pointer-events: none;
+  }
+  .toast.show { transform: translateY(0); opacity: 1; }
+
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes slideUp { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <header>
+    <div class="logo">Ipon<span>.ph</span></div>
+    <div class="header-right">
+      <div class="header-user">
+        <div class="header-avatar" id="headerAvatar">?</div>
+        <div class="header-name" id="headerName">User</div>
+      </div>
+      <button class="btn-logout" onclick="doLogout()">Sign Out</button>
+    </div>
+  </header>
+
+  <div class="total-banner">
+    <div class="total-label">Total Savings</div>
+    <div class="total-amount" id="totalAmount">₱0.00</div>
+    <div class="total-meta">
+      <div class="total-meta-item">Banks tracked: <strong id="bankCount">0</strong></div>
+      <div class="total-meta-item">Active accounts: <strong id="activeCount">0</strong></div>
+      <div class="total-meta-item">Top bank: <strong id="topBank">—</strong></div>
+    </div>
+  </div>
+
+  <div class="summary-row">
+    <div class="summary-pill" style="animation-delay:0.12s">
+      <div class="summary-pill-label">Highest Account</div>
+      <div class="summary-pill-value gold" id="highestAmt">₱0.00</div>
+    </div>
+    <div class="summary-pill" style="animation-delay:0.18s">
+      <div class="summary-pill-label">No. of Accounts</div>
+      <div class="summary-pill-value green" id="summaryCount">0</div>
+    </div>
+    <div class="summary-pill" style="animation-delay:0.24s">
+      <div class="summary-pill-label">Average Balance</div>
+      <div class="summary-pill-value gold" id="avgBalance">₱0.00</div>
+    </div>
+  </div>
+
+  <div class="section-header">
+    <div class="section-title">My <span>Accounts</span></div>
+    <button class="btn-add" onclick="openModal()">＋ Add Account</button>
+  </div>
+  <div class="banks-grid" id="banksGrid"></div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay hidden" id="modalOverlay">
+  <div class="modal">
+    <div class="modal-title" id="modalTitle">Add Account</div>
+    <div class="modal-sub">Track your savings in a bank or e-wallet</div>
+    <div class="form-group">
+      <label class="form-label">Bank / E-Wallet</label>
+      <select class="form-control" id="bankSelect">
+        <option value="">Select...</option>
+        <option value="BDO|BDO Unibank">BDO Unibank (BDO)</option>
+        <option value="BPI|Bank of the Philippine Islands">Bank of the Philippine Islands (BPI)</option>
+        <option value="ChinaBank|China Banking Corporation">China Banking Corporation (China Bank)</option>
+        <option value="CIMB|CIMB Bank Philippines">CIMB Bank Philippines</option>
+        <option value="DBP|Development Bank of the Philippines">Development Bank of the Philippines (DBP)</option>
+        <option value="EastWest|East West Banking Corporation">East West Banking Corporation (EastWest Bank)</option>
+        <option value="GCash|GCash (Mynt)">GCash (Mynt)</option>
+        <option value="GoTyme|GoTyme Bank">GoTyme Bank</option>
+        <option value="LandBank|Land Bank of the Philippines">Land Bank of the Philippines (LandBank)</option>
+        <option value="Maya|Maya Bank">Maya Bank</option>
+        <option value="Metrobank|Metropolitan Bank and Trust Company">Metropolitan Bank and Trust Company (Metrobank)</option>
+        <option value="PayPal|PayPal">PayPal</option>
+        <option value="PNB|Philippine National Bank">Philippine National Bank (PNB)</option>
+        <option value="RCBC|Rizal Commercial Banking Corporation">Rizal Commercial Banking Corporation (RCBC)</option>
+        <option value="SeaBank|SeaBank Philippines">SeaBank Philippines</option>
+        <option value="SecurityBank|Security Bank Corporation">Security Bank Corporation</option>
+        <option value="UnionBank|Union Bank of the Philippines">Union Bank of the Philippines (UnionBank)</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Account Label (optional)</label>
+      <input type="text" class="form-control" id="accountLabel" placeholder="e.g. Emergency Fund, Salary Account">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Balance</label>
+      <div class="amount-wrap">
+        <span class="amount-prefix">₱</span>
+        <input type="number" class="form-control" id="balanceInput" placeholder="0.00" min="0" step="0.01">
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+      <button class="btn-save" onclick="saveAccount()">Save Account</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+  /* ── AUTH GUARD ── */
+  const session = localStorage.getItem('ipon_session');
+  const users   = JSON.parse(localStorage.getItem('ipon_users') || '{}');
+  if (!session || !users[session]) {
+    window.location.replace('login.html');
+  }
+
+  const currentUser = session;
+  const userName    = users[session].name;
+
+  // Set header info
+  document.getElementById('headerAvatar').textContent = userName.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase();
+  document.getElementById('headerName').textContent   = userName;
+
+  // Fade in page
+  requestAnimationFrame(() => { document.body.classList.add('ready'); });
+
+  /* ── BANK DATA ── */
+  const BANK_COLORS = {
+    BDO:'#1e6db5', LandBank:'#2d7d46', BPI:'#d42027',
+    Metrobank:'#003087', UnionBank:'#e8732a', PNB:'#003a8c',
+    ChinaBank:'#cc0000', RCBC:'#00539b', SecurityBank:'#e31837',
+    DBP:'#0072bc', EastWest:'#f26522', Maya:'#1fccb4',
+    GoTyme:'#ff6600', CIMB:'#e30613', SeaBank:'#0066cc',
+    GCash:'#007dff', PayPal:'#003087',
+  };
+  const BANK_DOMAINS = {
+    BDO:'bdo.com.ph', LandBank:'landbank.com', BPI:'bpi.com.ph',
+    Metrobank:'metrobank.com.ph', UnionBank:'unionbankph.com', PNB:'pnb.com.ph',
+    ChinaBank:'chinabank.ph', RCBC:'rcbc.com', SecurityBank:'securitybank.com',
+    DBP:'dbp.ph', EastWest:'eastwestbanker.com', Maya:'maya.ph',
+    GoTyme:'gotyme.com.ph', CIMB:'cimbbank.com.ph', SeaBank:'seabank.com.ph',
+    GCash:'gcash.com', PayPal:'paypal.com',
+  };
+  function logoUrl(abbr) {
+    const d = BANK_DOMAINS[abbr];
+    return d ? `https://www.google.com/s2/favicons?domain=${d}&sz=64` : null;
+  }
+
+  /* ── STORAGE ── */
+  function getAccounts() {
+    return (JSON.parse(localStorage.getItem('ipon_accounts_v2') || '{}'))[currentUser] || [];
+  }
+  function saveAccounts(arr) {
+    const all = JSON.parse(localStorage.getItem('ipon_accounts_v2') || '{}');
+    all[currentUser] = arr;
+    localStorage.setItem('ipon_accounts_v2', JSON.stringify(all));
+  }
+
+  /* ── LOGOUT ── */
+  function doLogout() {
+    localStorage.removeItem('ipon_session');
+    document.body.classList.add('exit');
+    setTimeout(() => { window.location.href = 'login.html'; }, 300);
+  }
+
+  /* ── RENDER ── */
+  let accounts = [];
+  let editId   = null;
+
+  function fmt(n) {
+    return '₱' + Number(n).toLocaleString('en-PH', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  }
+
+  function renderAll() {
+    accounts = getAccounts();
+    const grid    = document.getElementById('banksGrid');
+    const total   = accounts.reduce((s, a) => s + Number(a.balance), 0);
+    const active  = accounts.filter(a => Number(a.balance) > 0);
+    const topBank = accounts.reduce((b, a) => (!b || Number(a.balance) > Number(b.balance)) ? a : b, null);
+    const avg     = accounts.length ? total / accounts.length : 0;
+    const highest = accounts.reduce((mx, a) => Math.max(mx, Number(a.balance)), 0);
+
+    document.getElementById('totalAmount').textContent  = fmt(total);
+    document.getElementById('bankCount').textContent    = accounts.length;
+    document.getElementById('activeCount').textContent  = active.length;
+    document.getElementById('topBank').textContent      = topBank ? topBank.abbr : '—';
+    document.getElementById('highestAmt').textContent   = fmt(highest);
+    document.getElementById('summaryCount').textContent = accounts.length;
+    document.getElementById('avgBalance').textContent   = fmt(avg);
+
+    if (!accounts.length) {
+      grid.innerHTML = `<div class="empty-card"><div class="empty-icon">🏦</div><p>No accounts yet. Add your first bank account!</p></div>`;
+      return;
+    }
+
+    grid.innerHTML = accounts.map((acc, i) => {
+      const bal      = Number(acc.balance);
+      const pct      = total > 0 ? (bal / total * 100) : 0;
+      const color    = BANK_COLORS[acc.abbr] || '#e8b84b';
+      const initials = acc.abbr.slice(0, 3);
+      const logo     = logoUrl(acc.abbr);
+      const iconHtml = logo
+        ? `<img src="${logo}" alt="${acc.abbr}" style="width:28px;height:28px;object-fit:contain;border-radius:4px;"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+           <span style="display:none;width:100%;height:100%;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:${color}">${initials}</span>`
+        : `<span style="font-size:12px;font-weight:700;color:${color}">${initials}</span>`;
+      return `
+      <div class="bank-card ${bal > 0 ? 'has-balance' : ''}" style="animation-delay:${i * 0.05}s">
+        <div class="bank-card-top">
+          <div style="display:flex;align-items:center;gap:12px">
+            <div class="bank-icon" style="background:${color}22">${iconHtml}</div>
+            <div>
+              <div class="bank-name">${acc.label || acc.name}</div>
+              <div class="bank-abbr">${acc.abbr}${acc.label ? ' · ' + acc.name : ''}</div>
+            </div>
+          </div>
+          <div class="bank-actions">
+            <button class="btn-icon" onclick="editAccount(${i})" title="Edit">✎</button>
+            <button class="btn-icon delete" onclick="deleteAccount(${i})" title="Delete">✕</button>
+          </div>
+        </div>
+        <div class="bank-balance-label">Current Balance</div>
+        <div class="bank-balance ${bal > 0 ? 'has-value' : 'zero'}">${fmt(bal)}</div>
+        <div class="bank-bar-wrap">
+          <div class="bank-bar-bg">
+            <div class="bank-bar" style="width:${pct}%;background:linear-gradient(90deg,${color},${color}88)"></div>
+          </div>
+          <div class="bank-bar-pct">${pct.toFixed(1)}% of total</div>
+        </div>
+      </div>`;
+    }).join('');
+  }
+
+  /* ── MODAL ── */
+  function openModal(isEdit = false) {
+    if (!isEdit) {
+      editId = null;
+      document.getElementById('modalTitle').textContent = 'Add Account';
+      document.getElementById('bankSelect').value       = '';
+      document.getElementById('accountLabel').value     = '';
+      document.getElementById('balanceInput').value     = '';
+    }
+    document.getElementById('modalOverlay').classList.remove('hidden');
+  }
+  function closeModal() { document.getElementById('modalOverlay').classList.add('hidden'); }
+
+  function editAccount(i) {
+    const acc = accounts[i]; editId = i;
+    document.getElementById('modalTitle').textContent   = 'Edit Account';
+    document.getElementById('bankSelect').value         = `${acc.abbr}|${acc.name}`;
+    document.getElementById('accountLabel').value       = acc.label || '';
+    document.getElementById('balanceInput').value       = acc.balance;
+    openModal(true);
+  }
+
+  function deleteAccount(i) {
+    accounts.splice(i, 1); saveAccounts(accounts); renderAll(); showToast('Account removed');
+  }
+
+  function saveAccount() {
+    const sel     = document.getElementById('bankSelect').value;
+    const label   = document.getElementById('accountLabel').value.trim();
+    const balance = document.getElementById('balanceInput').value;
+    if (!sel) { alert('Please select a bank.'); return; }
+    const [abbr, name] = sel.split('|');
+    const entry = { abbr, name, label, balance: parseFloat(balance) || 0 };
+    if (editId !== null) { accounts[editId] = entry; showToast('Account updated ✓'); }
+    else { accounts.push(entry); showToast('Account added ✓'); }
+    saveAccounts(accounts); closeModal(); renderAll();
+  }
+
+  function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg; t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2600);
+  }
+
+  document.getElementById('modalOverlay').addEventListener('click', function(e) { if (e.target === this) closeModal(); });
+
+  renderAll();
+</script>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ipon.ph — Sign In</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0d0f14;
+    --surface: #13161d;
+    --card: #191d27;
+    --border: rgba(255,255,255,0.07);
+    --gold: #e8b84b;
+    --text: #f0ede6;
+    --muted: #7a7f90;
+    --red: #f06060;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 24px;
+    overflow-x: hidden;
+  }
+
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none; z-index: 0; opacity: 0.5;
+  }
+
+  .glow {
+    position: fixed; top: -140px; left: 50%; transform: translateX(-50%);
+    width: 700px; height: 500px;
+    background: radial-gradient(ellipse, rgba(232,184,75,0.07) 0%, transparent 70%);
+    pointer-events: none; z-index: 0;
+  }
+
+  .auth-wrap {
+    position: relative; z-index: 1;
+    width: 100%; max-width: 440px;
+    animation: fadeUp 0.55s cubic-bezier(0.22,1,0.36,1) both;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  .auth-wrap.exit {
+    opacity: 0;
+    transform: translateY(-28px) scale(0.97);
+  }
+
+  .auth-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 44px 40px;
+    position: relative; overflow: hidden;
+    box-shadow: 0 32px 80px rgba(0,0,0,0.4);
+  }
+  .auth-box::before {
+    content: '';
+    position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+
+  .auth-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px; font-weight: 900;
+    color: var(--gold); text-align: center;
+    letter-spacing: -1px; margin-bottom: 6px;
+  }
+  .auth-logo span { color: var(--text); font-weight: 400; }
+  .auth-tagline {
+    text-align: center; color: var(--muted);
+    font-size: 13px; margin-bottom: 36px; line-height: 1.6;
+  }
+
+  .auth-tabs {
+    display: flex; background: var(--surface);
+    border-radius: 14px; padding: 4px; margin-bottom: 32px;
+    border: 1px solid var(--border);
+  }
+  .auth-tab {
+    flex: 1; padding: 11px; border: none; background: none;
+    border-radius: 11px; font-family: 'DM Sans', sans-serif;
+    font-size: 14px; font-weight: 500; color: var(--muted);
+    cursor: pointer; transition: all 0.25s;
+  }
+  .auth-tab.active {
+    background: linear-gradient(135deg, #1e2334, #1a1f2e);
+    color: var(--text);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    border: 1px solid rgba(232,184,75,0.15);
+  }
+
+  .auth-form { display: none; }
+  .auth-form.active { display: block; animation: fadeUp 0.3s ease both; }
+
+  .form-group { margin-bottom: 18px; }
+  .form-label {
+    display: block; font-size: 11px; letter-spacing: 1.5px;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 8px; font-weight: 500;
+  }
+  .form-control {
+    width: 100%; background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px; padding: 13px 16px;
+    color: var(--text); font-family: 'DM Sans', sans-serif;
+    font-size: 15px; outline: none; transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .form-control:focus {
+    border-color: rgba(232,184,75,0.5);
+    box-shadow: 0 0 0 3px rgba(232,184,75,0.08);
+  }
+  .form-control::placeholder { color: rgba(122,127,144,0.5); }
+
+  .input-wrap { position: relative; }
+  .input-wrap .form-control { padding-right: 48px; }
+  .toggle-pw {
+    position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
+    background: none; border: none; color: var(--muted);
+    cursor: pointer; font-size: 17px; padding: 0; line-height: 1; transition: color 0.15s;
+  }
+  .toggle-pw:hover { color: var(--gold); }
+
+  .auth-error {
+    background: rgba(240,96,96,0.08);
+    border: 1px solid rgba(240,96,96,0.25);
+    border-radius: 10px; padding: 11px 14px;
+    color: var(--red); font-size: 13px;
+    margin-bottom: 18px; display: none; line-height: 1.5;
+  }
+  .auth-error.show { display: block; animation: fadeUp 0.2s ease; }
+
+  .btn-primary {
+    width: 100%; background: var(--gold); color: #0d0f14;
+    border: none; border-radius: 12px; padding: 15px;
+    font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 700;
+    cursor: pointer; margin-top: 6px; transition: all 0.2s;
+  }
+  .btn-primary:hover { background: #f0c85a; transform: translateY(-1px); box-shadow: 0 8px 24px rgba(232,184,75,0.25); }
+  .btn-primary:active { transform: translateY(0); }
+
+  .auth-divider {
+    display: flex; align-items: center; gap: 12px;
+    margin: 22px 0; color: var(--muted); font-size: 12px;
+  }
+  .auth-divider::before, .auth-divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+  .auth-footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 18px; }
+  .auth-link { color: var(--gold); cursor: pointer; font-weight: 500; }
+  .auth-link:hover { text-decoration: underline; }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+<div class="glow"></div>
+
+<div class="auth-wrap" id="authWrap">
+  <div class="auth-box">
+    <div class="auth-logo">Ipon<span>.ph</span></div>
+    <div class="auth-tagline">Track your Philippine bank savings<br>all in one place</div>
+
+    <div class="auth-tabs">
+      <button class="auth-tab active" id="tabLogin" onclick="switchTab('login')">Sign In</button>
+      <button class="auth-tab" id="tabSignup" onclick="switchTab('signup')">Create Account</button>
+    </div>
+
+    <!-- LOGIN -->
+    <div class="auth-form active" id="loginForm">
+      <div class="auth-error" id="loginError"></div>
+      <div class="form-group">
+        <label class="form-label">Username</label>
+        <input type="text" class="form-control" id="loginUsername" placeholder="Enter your username" autocomplete="username">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Password</label>
+        <div class="input-wrap">
+          <input type="password" class="form-control" id="loginPassword" placeholder="Enter your password" autocomplete="current-password">
+          <button class="toggle-pw" type="button" onclick="togglePw('loginPassword', this)">👁</button>
+        </div>
+      </div>
+      <button class="btn-primary" onclick="doLogin()">Sign In</button>
+      <div class="auth-divider">or</div>
+      <div class="auth-footer">No account yet? <span class="auth-link" onclick="switchTab('signup')">Create one free</span></div>
+    </div>
+
+    <!-- SIGNUP -->
+    <div class="auth-form" id="signupForm">
+      <div class="auth-error" id="signupError"></div>
+      <div class="form-group">
+        <label class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="signupName" placeholder="e.g. Juan dela Cruz">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Username</label>
+        <input type="text" class="form-control" id="signupUsername" placeholder="Choose a username (min. 3 chars)">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Password</label>
+        <div class="input-wrap">
+          <input type="password" class="form-control" id="signupPassword" placeholder="At least 6 characters">
+          <button class="toggle-pw" type="button" onclick="togglePw('signupPassword', this)">👁</button>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Confirm Password</label>
+        <div class="input-wrap">
+          <input type="password" class="form-control" id="signupConfirm" placeholder="Repeat your password">
+          <button class="toggle-pw" type="button" onclick="togglePw('signupConfirm', this)">👁</button>
+        </div>
+      </div>
+      <button class="btn-primary" onclick="doSignup()">Create Account</button>
+      <div class="auth-divider">or</div>
+      <div class="auth-footer">Already have an account? <span class="auth-link" onclick="switchTab('login')">Sign in</span></div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  // If already logged in, go straight to dashboard
+  (function() {
+    const s = localStorage.getItem('ipon_session');
+    if (s && JSON.parse(localStorage.getItem('ipon_users') || '{}')[s]) {
+      window.location.replace('dashboard.html');
+    }
+  })();
+
+  function switchTab(tab) {
+    document.getElementById('tabLogin').classList.toggle('active', tab === 'login');
+    document.getElementById('tabSignup').classList.toggle('active', tab === 'signup');
+    document.getElementById('loginForm').classList.toggle('active', tab === 'login');
+    document.getElementById('signupForm').classList.toggle('active', tab === 'signup');
+    document.getElementById('loginError').classList.remove('show');
+    document.getElementById('signupError').classList.remove('show');
+  }
+
+  function showError(id, msg) {
+    const el = document.getElementById(id);
+    el.textContent = msg;
+    el.classList.add('show');
+  }
+
+  function togglePw(id, btn) {
+    const inp = document.getElementById(id);
+    const visible = inp.type === 'password';
+    inp.type = visible ? 'text' : 'password';
+    btn.textContent = visible ? '🙈' : '👁';
+  }
+
+  function navigate() {
+    const wrap = document.getElementById('authWrap');
+    wrap.classList.add('exit');
+    setTimeout(() => { window.location.href = 'dashboard.html'; }, 400);
+  }
+
+  function doLogin() {
+    const username = document.getElementById('loginUsername').value.trim();
+    const password = document.getElementById('loginPassword').value;
+    if (!username || !password) return showError('loginError', 'Please fill in all fields.');
+    const users = JSON.parse(localStorage.getItem('ipon_users') || '{}');
+    if (!users[username]) return showError('loginError', 'Account not found. Please sign up first.');
+    if (users[username].password !== btoa(password)) return showError('loginError', 'Incorrect password. Please try again.');
+    localStorage.setItem('ipon_session', username);
+    navigate();
+  }
+
+  function doSignup() {
+    const name     = document.getElementById('signupName').value.trim();
+    const username = document.getElementById('signupUsername').value.trim();
+    const password = document.getElementById('signupPassword').value;
+    const confirm  = document.getElementById('signupConfirm').value;
+    if (!name || !username || !password || !confirm) return showError('signupError', 'Please fill in all fields.');
+    if (username.length < 3) return showError('signupError', 'Username must be at least 3 characters.');
+    if (password.length < 6) return showError('signupError', 'Password must be at least 6 characters.');
+    if (password !== confirm) return showError('signupError', 'Passwords do not match.');
+    const users = JSON.parse(localStorage.getItem('ipon_users') || '{}');
+    if (users[username]) return showError('signupError', 'Username already taken. Please choose another.');
+    users[username] = { name, password: btoa(password) };
+    localStorage.setItem('ipon_users', JSON.stringify(users));
+    localStorage.setItem('ipon_session', username);
+    navigate();
+  }
+
+  document.getElementById('loginPassword').addEventListener('keydown', e => { if (e.key === 'Enter') doLogin(); });
+  document.getElementById('signupConfirm').addEventListener('keydown', e => { if (e.key === 'Enter') doSignup(); });
+</script>
+</body>
+</html>
