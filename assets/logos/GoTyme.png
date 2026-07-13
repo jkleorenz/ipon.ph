@@ -1,0 +1,1738 @@
+
+<!DOCTYPE html>
+<html lang="en" data-craftercms-preview="false">
+  <head>
+    <!-- Head contents -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">-->
+
+<link rel="icon" href="/static-assets/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/static-assets/images/favicon.ico" type="image/x-icon">
+
+
+
+
+
+  
+
+    
+
+
+  
+
+    <link rel="canonical" href="https://www.gotyme.com.ph/" />
+
+
+<title>GoTyme Bank</title>
+
+
+<!-- Google Tag Manager -->
+<script>
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+  {'gtm.start': new Date().getTime(),event:'gtm.js'});
+  var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+  j.async=true;
+  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+  f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KVJXVRHZ');
+</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Additional CSS Files zzz -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="/static-assets/owlcarousel/css/owl.carousel.min.css">
+<link rel="stylesheet" href="/static-assets/owlcarousel/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha384-Gu3KVV2H9d+yA4QDpVB7VcOyhJlAVrcXd0thEjr4KznfaFPLe0xQJyonVxONa4ZC" crossorigin="anonymous">
+<link rel="stylesheet" href="/static-assets/css/card/card.css" />
+<link rel="stylesheet" href="/static-assets/css/carousel/carousel.css" />
+<link rel="stylesheet" href="/static-assets/css/global.css" />
+<link rel="stylesheet" href="/static-assets/css/media-queries.css" />
+<link rel="stylesheet" href="/static-assets/css/go-save.css" />
+<link rel="stylesheet" href="/static-assets/css/scroller.css" />
+
+<link rel="stylesheet" href="/static-assets/react/media/media-featured/distro/main.e6ea94a6.css" />
+
+<link rel="stylesheet" href="/static-assets/fontawesome/css/all.min.css" integrity="sha384-7LL0zZbUiBaPL8boND8OyB6S7Lw4eWPutuM1L+lGuijSzFWdKTbQmyigHENFMlzy" crossorigin="anonymous"/>
+<!-- <script src="https://kit.fontawesome.com/4c8057f217.js" crossorigin="anonymous"></script>  -->
+
+<!-- MoEngage -->
+<script type="text/javascript">
+var moeDataCenter = "dc_1"; // Replace "DC" with the actual Data center value from the above table
+var moeAppID = "NDZ6MAV8ZTR4WMMVGA7ZST7L"; // Replace "WorkspaceID" available in the settings page of MoEngage Dashboard.
+var sdkVersion = "2"; // Replace this value with the version of Web SDK that you intend to use. It is recommended to use the format x (major)
+      
+!function(e,n,i,t,a,r,o,d){if(!moeDataCenter||!moeDataCenter.match(/^dc_[0-9]+$/gm))return console.error("Data center has not been passed correctly. Please follow the SDK installation instruction carefully.");var s=e[a]=e[a]||[];if(s.invoked=0,s.initialised>0||s.invoked>0)return console.error("MoEngage Web SDK initialised multiple times. Please integrate the Web SDK only once!"),!1;e.moengage_object=a;var l={},g=function n(i){return function(){for(var n=arguments.length,t=Array(n),a=0;a<n;a++)t[a]=arguments[a];(e.moengage_q=e.moengage_q||[]).push({f:i,a:t})}},u=["track_event","add_user_attribute","add_first_name","add_last_name","add_email","add_mobile","add_user_name","add_gender","add_birthday","destroy_session","add_unique_user_id","update_unique_user_id","moe_events","call_web_push","track","location_type_attribute"],m={onsite:["getData","registerCallback"]};for(var c in u)l[u[c]]=g(u[c]);for(var v in m)for(var f in m[v])null==l[v]&&(l[v]={}),l[v][m[v][f]]=g(v+"."+m[v][f]);r=n.createElement(i),o=n.getElementsByTagName("head")[0],r.async=1,r.src=t,o.appendChild(r),e.moe=e.moe||function(){return(s.invoked=s.invoked+1,s.invoked>1)?(console.error("MoEngage Web SDK initialised multiple times. Please integrate the Web SDK only once!"),!1):(d=arguments.length<=0?void 0:arguments[0],l)},r.addEventListener("load",function(){if(d)return e[a]=e.moe(d),e[a].initialised=e[a].initialised+1||1,!0}),r.addEventListener("error",function(){return console.error("Moengage Web SDK loading failed."),!1})}(window,document,"script","https://cdn.moengage.com/release/"+moeDataCenter+"/versions/"+sdkVersion+"/moe_webSdk.min.latest.js","Moengage");
+ 
+Moengage = moe({
+  app_id: moeAppID,
+  debug_logs: 0
+});
+</script>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1195900847900501');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=407952393988600&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<!-- TikTok Pixel Code Start -->
+<script>
+!function (w, d, t) {
+  w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);ttq.instance=function(t){for(
+var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};n=document.createElement("script")
+;n.type="text/javascript",n.async=!0,n.src=r+"?sdkid="+e+"&lib="+t;e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
+
+
+  ttq.load('CSK5B0BC77UA0B03OGEG');
+  ttq.page();
+}(window, document, 'ttq');
+</script>
+<!-- TikTok Pixel Code End --><link rel="stylesheet" href="/static-assets/css/search/search.css" />  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVJXVRHZ&gtm_auth=CJuRY92ji2sYzxEsxLGtUQ&gtm_preview=env-207&gtm_cookies_win=x"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="preloader">
+  <div class="jumper">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</div>  
+
+
+<!-- Modal -->
+<div class="modal fade" id="downloadAppModal" tabindex="-1" aria-labelledby="downloadAppModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-semi-fullscreen">
+    <div class="modal-content rounded-5 border-0">
+      <div class="modal-body position-relative p-md-5 p-3 py-5 rounded-5 bg-bright-gray responsive-section" style="min-height: max-content !important; background-image: url('/static-assets/images/dl-app-bg2.png'); background-repeat: no-repeat;background-position: 100% 100%; background-size: 110%;">
+        <button type="button" class="btn-close position-absolute" style="right: 2rem; top: 2rem" data-bs-dismiss="modal" aria-label="Close"></button>
+      
+    <div
+        style=""
+        class="text-content-wrapper"
+    >          <h3 style="line-height: 1.2;"><strong><span style="font-family: Larken;">Download the GoTyme Bank app</span></strong></h3>
+<p style="line-height: 1.2;"><br>Switch to a beautiful banking experience today.<br></p>
+<p style="line-height: 1.2;">&nbsp;</p>
+</div>
+        
+        <div class="d-flex flex-md-row flex-column">
+            <a role="button" href="https://apps.apple.com/ph/app/gotyme-bank/id1637067963" class="dl-link apple me-md-3 mb-md-0 mb-3">
+                <svg width="180" height="55" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#appStore_svg__a)" fill="black"><path d="M173.042 1.192a5.776 5.776 0 0 1 4.072 1.684 5.738 5.738 0 0 1 1.69 4.061v40.71a5.738 5.738 0 0 1-1.69 4.061 5.776 5.776 0 0 1-4.072 1.684H6.957a5.777 5.777 0 0 1-4.072-1.684 5.744 5.744 0 0 1-1.69-4.06V6.937a5.744 5.744 0 0 1 1.69-4.061 5.777 5.777 0 0 1 4.072-1.685h166.085Zm0-1.192H6.957c-1.845 0-3.615.73-4.92 2.032A6.928 6.928 0 0 0 0 6.937v40.71c0 1.84.733 3.605 2.038 4.906a6.967 6.967 0 0 0 4.92 2.032h166.084a6.97 6.97 0 0 0 4.92-2.032A6.931 6.931 0 0 0 180 47.647V6.937a6.93 6.93 0 0 0-2.038-4.905A6.97 6.97 0 0 0 173.042 0Z"></path><path d="M18.95 22.303c-2.921 5.052-1.065 12.72 2.165 17.37 1.611 2.324 3.243 4.412 5.478 4.412h.128c1.05-.042 1.809-.364 2.542-.675.823-.35 1.673-.715 3.012-.715 1.271 0 2.083.35 2.87.689.787.338 1.57.68 2.75.657 2.518-.047 4.065-2.3 5.427-4.285a18.904 18.904 0 0 0 2.378-4.858l.01-.03a.282.282 0 0 0-.151-.346l-.02-.008c-.444-.182-4.334-1.908-4.374-6.591-.037-3.81 2.917-5.827 3.51-6.193l.028-.018a.28.28 0 0 0 .08-.395c-2.04-2.98-5.166-3.425-6.425-3.48a5.39 5.39 0 0 0-.56-.027c-1.479 0-2.896.557-4.033 1.004-.785.309-1.464.576-1.932.576-.526 0-1.209-.27-1.998-.583-1.057-.417-2.255-.892-3.522-.892h-.09c-2.953.043-5.738 1.725-7.274 4.388Z"></path><path d="M38.357 9.638c-1.785.072-3.926 1.168-5.207 2.663-1.088 1.255-2.152 3.351-1.87 5.463a.281.281 0 0 0 .259.238c.12.01.239.015.365.015 1.746 0 3.63-.964 4.916-2.514 1.353-1.636 2.032-3.738 1.83-5.62a.285.285 0 0 0-.293-.245ZM58.898 10.729h3.385a4.961 4.961 0 0 1 2.365.548 4.019 4.019 0 0 1 1.607 1.517 4.496 4.496 0 0 1 0 4.399 4.013 4.013 0 0 1-1.607 1.517 4.973 4.973 0 0 1-2.365.549h-3.385v-8.53Zm3.337 7.97a4.477 4.477 0 0 0 2.09-.469 3.36 3.36 0 0 0 1.393-1.311 4.044 4.044 0 0 0 0-3.851 3.358 3.358 0 0 0-1.394-1.312 4.464 4.464 0 0 0-2.089-.47h-2.714V18.7h2.714ZM69.66 18.893a2.993 2.993 0 0 1-1.144-1.152 3.542 3.542 0 0 1 0-3.326c.268-.482.663-.88 1.143-1.152a3.414 3.414 0 0 1 3.263 0c.48.272.875.67 1.142 1.152a3.534 3.534 0 0 1 0 3.326c-.267.482-.662.88-1.142 1.152a3.413 3.413 0 0 1-3.263 0Zm2.944-.477c.388-.228.705-.558.917-.954a3.038 3.038 0 0 0 0-2.778 2.446 2.446 0 0 0-.917-.953 2.693 2.693 0 0 0-2.63 0 2.442 2.442 0 0 0-.916.953 3.038 3.038 0 0 0 0 2.778c.212.396.528.726.916.954a2.693 2.693 0 0 0 2.63 0ZM85.306 12.897l-2.42 6.362h-.574l-2.152-5.52-2.162 5.52h-.564l-2.418-6.362h.585l2.125 5.682 2.175-5.678h.525l2.164 5.666 2.152-5.666.564-.004ZM91.73 13.543c.463.463.696 1.13.697 1.999v3.717h-.613v-3.668c0-.716-.18-1.26-.542-1.634-.362-.373-.87-.56-1.522-.56-.75 0-1.34.223-1.772.671-.432.447-.648 1.048-.648 1.803v3.388h-.611v-6.362h.587v1.377a2.43 2.43 0 0 1 .984-1.048 3.036 3.036 0 0 1 1.546-.378c.797 0 1.429.232 1.894.695ZM94.945 10.217h.611v9.042h-.61v-9.042ZM98.995 18.893a3.001 3.001 0 0 1-1.143-1.152 3.542 3.542 0 0 1 0-3.326c.268-.481.663-.88 1.143-1.152a3.416 3.416 0 0 1 3.263 0c.48.272.875.67 1.143 1.152a3.535 3.535 0 0 1 0 3.326c-.268.482-.663.88-1.143 1.152a3.41 3.41 0 0 1-3.263 0Zm2.945-.477c.388-.228.705-.558.917-.954a3.037 3.037 0 0 0 0-2.778 2.444 2.444 0 0 0-.917-.953 2.69 2.69 0 0 0-2.63 0 2.447 2.447 0 0 0-.917.953 3.04 3.04 0 0 0 0 2.778c.212.396.53.726.917.954a2.69 2.69 0 0 0 2.63 0ZM109.663 13.453c.423.403.634.994.634 1.774v4.033h-.585v-1.134a2.123 2.123 0 0 1-.892.872 2.965 2.965 0 0 1-1.406.311c-.71 0-1.27-.167-1.68-.5a1.725 1.725 0 0 1-.049-2.602c.379-.33.984-.494 1.815-.494h2.187v-.511c0-.593-.16-1.044-.479-1.352-.319-.309-.789-.463-1.412-.464a3.406 3.406 0 0 0-1.216.22 3.05 3.05 0 0 0-.984.585l-.305-.439c.336-.295.726-.52 1.149-.664a4.18 4.18 0 0 1 1.405-.238c.789-.001 1.394.2 1.818.603Zm-.813 4.99c.382-.258.674-.628.837-1.06v-1.192h-2.175c-.628 0-1.082.114-1.363.341a1.144 1.144 0 0 0-.421.938 1.175 1.175 0 0 0 .464.982c.31.238.746.357 1.308.357.476.014.946-.113 1.35-.367v.002ZM118.492 10.217v9.042h-.597v-1.5a2.742 2.742 0 0 1-1.065 1.146 2.999 2.999 0 0 1-1.554.403 3.177 3.177 0 0 1-1.613-.415 2.963 2.963 0 0 1-1.129-1.146 3.608 3.608 0 0 1 0-3.338 2.9 2.9 0 0 1 1.129-1.146 3.224 3.224 0 0 1 1.613-.409 2.95 2.95 0 0 1 1.534.403 2.86 2.86 0 0 1 1.069 1.121v-4.155l.613-.006Zm-1.86 8.2c.387-.228.704-.558.916-.954a3.037 3.037 0 0 0 0-2.777 2.45 2.45 0 0 0-.916-.954 2.695 2.695 0 0 0-2.63 0 2.435 2.435 0 0 0-.916.954 3.037 3.037 0 0 0 0 2.777c.211.396.528.726.916.954a2.69 2.69 0 0 0 2.63 0ZM125.073 18.893a2.984 2.984 0 0 1-1.141-1.152 3.523 3.523 0 0 1 0-3.326c.266-.482.662-.88 1.141-1.152a3.419 3.419 0 0 1 3.263 0c.48.272.876.67 1.143 1.152a3.535 3.535 0 0 1 0 3.326 2.99 2.99 0 0 1-1.143 1.152 3.41 3.41 0 0 1-3.263 0Zm2.946-.477c.388-.228.705-.558.916-.954a3.037 3.037 0 0 0 0-2.778 2.435 2.435 0 0 0-.916-.953 2.69 2.69 0 0 0-2.63 0 2.444 2.444 0 0 0-.917.953 3.037 3.037 0 0 0 0 2.778c.212.396.529.726.917.954a2.695 2.695 0 0 0 2.63 0ZM136.799 13.543c.465.463.697 1.129.697 1.999v3.717h-.611V15.59c0-.716-.182-1.26-.544-1.634-.363-.373-.87-.56-1.522-.56-.75 0-1.341.223-1.772.671-.431.447-.647 1.048-.647 1.803v3.388h-.611v-6.362h.586v1.377c.214-.44.557-.805.984-1.048a3.042 3.042 0 0 1 1.546-.378c.798 0 1.43.232 1.894.695ZM146.321 18.856a1.517 1.517 0 0 1-.58.335c-.234.079-.48.12-.727.12-.558 0-.986-.153-1.284-.459-.298-.305-.449-.73-.452-1.273v-4.155h-1.176V12.9h1.172v-1.39h.621v1.39h2.032v.524h-2.032v4.094c0 .415.1.73.3.945.2.214.495.322.886.323.364.01.718-.117.99-.358l.25.428ZM153.025 13.543c.465.463.697 1.13.697 1.999v3.717h-.611V15.59c0-.716-.181-1.26-.544-1.634-.362-.373-.869-.56-1.521-.56-.75 0-1.34.223-1.771.671-.432.447-.648 1.048-.648 1.803v3.388h-.611v-9.042h.611v4.008c.212-.431.554-.787.978-1.017a3.094 3.094 0 0 1 1.526-.357c.799-.002 1.43.229 1.894.692ZM161.646 16.225h-5.486c.007.466.138.922.379 1.322.23.38.561.69.956.895a3.072 3.072 0 0 0 2.518.09c.346-.143.651-.372.886-.663l.359.403c-.282.336-.64.6-1.045.768a3.644 3.644 0 0 1-3.061-.147 3.002 3.002 0 0 1-1.167-1.146 3.283 3.283 0 0 1-.422-1.669c-.01-.58.126-1.155.397-1.669.252-.477.63-.875 1.094-1.152a3.162 3.162 0 0 1 3.122-.006c.461.273.837.667 1.088 1.139.27.51.407 1.08.397 1.658l-.015.177Zm-4.239-2.542c-.358.199-.655.49-.861.842a2.72 2.72 0 0 0-.373 1.224h4.889a2.561 2.561 0 0 0-.367-1.218 2.38 2.38 0 0 0-2.078-1.146 2.46 2.46 0 0 0-1.21.298ZM67.947 38.115h-7.309l-1.44 3.374h-2.8l6.576-14.577h2.674l6.598 14.577H69.41l-1.463-3.374Zm-.898-2.123-2.756-6.373-2.736 6.373h5.492ZM82.947 30.952a5.12 5.12 0 0 1 2.015 2c.487.86.73 1.854.73 2.98a6.004 6.004 0 0 1-.73 2.99 5.09 5.09 0 0 1-2.016 2.008 5.93 5.93 0 0 1-2.913.708c-1.503 0-2.693-.5-3.57-1.498v5.393h-2.611V30.37h2.488v1.458a4.029 4.029 0 0 1 1.597-1.192 5.417 5.417 0 0 1 2.098-.396 5.93 5.93 0 0 1 2.912.713Zm-.837 7.497c.619-.636.929-1.476.93-2.52 0-1.045-.31-1.885-.93-2.52-.62-.635-1.41-.953-2.37-.953a3.362 3.362 0 0 0-1.692.428c-.505.285-.92.707-1.195 1.217a4.045 4.045 0 0 0 0 3.666c.275.51.69.932 1.195 1.217a3.36 3.36 0 0 0 1.692.427c.961-.003 1.752-.324 2.37-.962ZM97.276 30.952a5.12 5.12 0 0 1 2.016 2c.487.86.73 1.854.73 2.98a6.007 6.007 0 0 1-.73 2.99 5.09 5.09 0 0 1-2.016 2.008 5.93 5.93 0 0 1-2.914.708c-1.503 0-2.693-.5-3.57-1.498v5.393H88.18V30.37h2.485v1.458a4.029 4.029 0 0 1 1.598-1.192 5.415 5.415 0 0 1 2.098-.396 5.93 5.93 0 0 1 2.915.713Zm-.837 7.497c.62-.636.93-1.476.93-2.52 0-1.045-.31-1.885-.93-2.52-.62-.635-1.41-.953-2.37-.953a3.362 3.362 0 0 0-1.692.428c-.505.286-.919.707-1.195 1.217a4.058 4.058 0 0 0 0 3.666c.276.51.69.931 1.195 1.217.517.289 1.1.436 1.692.427.962-.003 1.752-.324 2.371-.962h-.001ZM109.784 41.219c-1.05-.318-1.882-.742-2.495-1.27l.94-2.104A7.377 7.377 0 0 0 110.432 39c.842.291 1.726.44 2.616.442 1.086 0 1.897-.173 2.433-.52.537-.346.805-.804.804-1.374a1.338 1.338 0 0 0-.449-1.031 3.157 3.157 0 0 0-1.138-.635 26.056 26.056 0 0 0-1.879-.52 21.91 21.91 0 0 1-2.705-.792 4.445 4.445 0 0 1-1.775-1.239c-.495-.563-.742-1.323-.741-2.28a3.868 3.868 0 0 1 .657-2.197c.439-.66 1.1-1.184 1.984-1.572.883-.389 1.966-.583 3.248-.583.887 0 1.771.111 2.63.332.794.191 1.549.513 2.235.954l-.856 2.103a8.465 8.465 0 0 0-2.005-.854 7.524 7.524 0 0 0-2.025-.292c-1.073 0-1.87.18-2.392.542-.521.36-.782.837-.783 1.43a1.303 1.303 0 0 0 .45 1.02c.333.284.72.497 1.138.626.459.153 1.086.327 1.879.52a19.94 19.94 0 0 1 2.673.781 4.588 4.588 0 0 1 1.786 1.24c.494.556.741 1.306.741 2.249a3.844 3.844 0 0 1-.657 2.187c-.439.651-1.104 1.172-1.995 1.561-.891.39-1.977.584-3.258.583a11.179 11.179 0 0 1-3.264-.463ZM128.112 40.886c-.33.261-.71.452-1.117.561-.452.127-.92.19-1.389.188-1.225 0-2.172-.318-2.84-.954-.668-.636-1.002-1.566-1.003-2.791v-5.352h-1.841v-2.082h1.838v-2.54h2.611v2.54h2.989v2.082h-2.989v5.29c0 .541.132.954.397 1.239.264.284.647.426 1.147.426a2.303 2.303 0 0 0 1.463-.457l.734 1.85ZM131.843 40.906a5.315 5.315 0 0 1-2.119-2.027 6.046 6.046 0 0 1 0-5.882 5.346 5.346 0 0 1 2.119-2.027 6.792 6.792 0 0 1 6.12 0 5.367 5.367 0 0 1 2.119 2.027 6.068 6.068 0 0 1 0 5.882 5.33 5.33 0 0 1-2.119 2.027 6.792 6.792 0 0 1-6.12 0Zm5.43-2.457c.626-.636.939-1.476.939-2.52 0-1.045-.313-1.884-.939-2.52-.627-.635-1.42-.953-2.381-.953-.96 0-1.75.318-2.369.953-.621.636-.931 1.476-.931 2.52 0 1.043.31 1.883.931 2.52.619.636 1.409.954 2.369.954.961 0 1.754-.318 2.381-.954ZM149.804 30.244v2.479a3.312 3.312 0 0 0-.605-.063c-1.017 0-1.811.295-2.381.885-.571.591-.856 1.441-.856 2.55v5.394h-2.61V30.37h2.484v1.624c.752-1.166 2.075-1.749 3.968-1.749ZM162.358 36.762h-8.75c.128.78.557 1.479 1.195 1.947.648.477 1.453.715 2.413.715 1.224 0 2.234-.402 3.029-1.207l1.398 1.603a4.7 4.7 0 0 1-1.901 1.353 6.94 6.94 0 0 1-2.589.458c-1.225 0-2.303-.243-3.237-.728a5.253 5.253 0 0 1-2.161-2.027 5.716 5.716 0 0 1-.762-2.947 5.796 5.796 0 0 1 .741-2.926 5.263 5.263 0 0 1 2.057-2.027 6.024 6.024 0 0 1 2.966-.728 5.854 5.854 0 0 1 2.912.715 5.085 5.085 0 0 1 2.005 2.02c.479.868.718 1.87.718 3.009.008.18-.006.437-.034.77Zm-7.716-3.696a3.1 3.1 0 0 0-1.055 1.967h6.329a3.064 3.064 0 0 0-1.024-1.956c-.57-.5-1.28-.75-2.129-.75a3.156 3.156 0 0 0-2.121.74Z"></path></g><defs><clipPath id="appStore_svg__a"><path fill="#fff" d="M0 0h180v54.585H0z"></path></clipPath></defs></svg>
+            </a>
+            
+            <a role="button" href="https://play.google.com/store/apps/details?id=ph.com.gotyme&hl=en" class="dl-link-google">
+                <svg width="180" height="55" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#googlePlay_svg__a)"><path d="M173.333 1.095c3.094 0 5.6 2.574 5.6 5.75v41.067c0 3.176-2.506 5.75-5.6 5.75H6.667c-3.094 0-5.6-2.574-5.6-5.75V6.845c0-3.176 2.506-5.75 5.6-5.75h166.666Zm0-1.095H6.667C3 0 0 3.08 0 6.845v41.067c0 3.764 3 6.844 6.667 6.844h166.666c3.667 0 6.667-3.08 6.667-6.844V6.845C180 3.08 177 0 173.333 0Z" fill="#2D2D3A"></path><path d="M63.224 14.018c0 1.15-.333 2.067-1 2.737-.746.808-1.72 1.219-2.933 1.219-1.213 0-2.146-.411-2.947-1.232-.8-.822-1.2-1.848-1.2-3.053 0-1.205.4-2.231 1.2-3.053.8-.821 1.787-1.245 2.947-1.245.587 0 1.147.11 1.667.314.52.22.947.52 1.28.904l-.733.753a2.357 2.357 0 0 0-.96-.712 2.986 2.986 0 0 0-1.254-.26c-.866 0-1.613.315-2.213.93-.6.63-.894 1.41-.894 2.355 0 .945.294 1.725.894 2.355.6.616 1.333.93 2.213.93.8 0 1.454-.232 1.987-.684.533-.451.84-1.095.92-1.889H59.29v-.986h3.88c.04.22.053.425.053.617Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M59.292 9.528c-1.125 0-2.078.41-2.853 1.205-.773.795-1.16 1.786-1.16 2.956s.387 2.162 1.16 2.956c.775.796 1.674 1.192 2.853 1.192 1.18 0 2.117-.398 2.836-1.176l.002-.002.002-.001c.636-.64.96-1.519.96-2.64 0-.152-.009-.312-.033-.48h-3.634v.712h2.921l-.015.151c-.083.824-.403 1.503-.968 1.981-.56.474-1.244.716-2.071.716a3.1 3.1 0 0 1-2.308-.971v-.001c-.628-.658-.932-1.474-.932-2.45 0-.978.304-1.793.931-2.45l.001-.002a3.12 3.12 0 0 1 2.308-.97c.455 0 .9.084 1.305.27.368.152.674.37.915.638l.541-.556a3.336 3.336 0 0 0-1.144-.773 4.387 4.387 0 0 0-1.617-.305ZM56.25 10.54c.825-.847 1.846-1.286 3.04-1.286.604 0 1.18.113 1.715.324h.002l.001.001c.536.226.98.538 1.329.939l.084.096-.927.952-.093-.117a2.223 2.223 0 0 0-.907-.672h-.002l-.003-.002a2.855 2.855 0 0 0-1.198-.248c-.832 0-1.544.3-2.119.89-.573.602-.855 1.347-.855 2.258 0 .912.282 1.657.855 2.259.575.59 1.274.89 2.119.89.772 0 1.395-.224 1.901-.653.469-.397.756-.953.854-1.647h-2.889v-1.26h4.124l.02.113c.043.228.056.442.056.64 0 1.178-.342 2.133-1.038 2.835-.774.836-1.783 1.259-3.028 1.259-1.249 0-2.216-.425-3.041-1.272-.827-.849-1.24-1.91-1.24-3.15 0-1.239.413-2.3 1.24-3.15Z" fill="#2D2D3A"></path><path d="M69.372 9.584v1.013h-3.64v2.6h3.28v.987h-3.28v2.6h3.64v1.013h-4.667V9.584h4.667Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M64.572 9.447h4.934v1.287h-3.64v2.327h3.28v1.26h-3.28v2.327h3.64v1.287h-4.934V9.447Zm.267.274v7.94h4.4v-.74h-3.64v-2.874h3.28v-.712h-3.28V10.46h3.64v-.739h-4.4Z" fill="#2D2D3A"></path><path d="M73.706 10.597v7.2H72.68v-7.2h-2.24V9.584h5.494v1.013h-2.24.013Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M70.307 9.447h5.76v1.287H73.84v7.2h-1.293v-7.2h-2.24V9.447Zm3.386 1.15v-.137H75.8v-.739h-5.227v.74h2.24v7.2h.76v-7.064h.12Z" fill="#2D2D3A"></path><path d="M80.945 17.797h-1.027V9.584h1.027v8.213Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M79.785 9.447h1.294v8.488h-1.294V9.447Zm.267.274v7.94h.76V9.72h-.76Z" fill="#2D2D3A"></path><path d="M85.505 10.597v7.2h-1.027v-7.2h-2.24V9.584h5.494v1.013h-2.24.013Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M82.106 9.447h5.76v1.287h-2.227v7.2h-1.293v-7.2h-2.24V9.447Zm3.386 1.15v-.137H87.6v-.739h-5.227v.74h2.24v7.2h.76v-7.064h.12Z" fill="#2D2D3A"></path><path d="M99.318 13.689c0 1.218-.4 2.231-1.186 3.053-.8.821-1.774 1.232-2.934 1.232-1.16 0-2.133-.411-2.933-1.232-.787-.822-1.187-1.835-1.187-3.053s.4-2.231 1.187-3.053c.787-.821 1.76-1.245 2.933-1.245 1.174 0 2.134.41 2.934 1.245.786.822 1.186 1.835 1.186 3.04v.013Zm-7.173 0c0 .944.293 1.739.867 2.355.586.616 1.32.93 2.186.93.867 0 1.6-.314 2.174-.93.586-.617.88-1.397.88-2.355s-.294-1.739-.88-2.354a2.881 2.881 0 0 0-2.174-.931c-.866 0-1.6.315-2.186.93-.587.617-.867 1.41-.867 2.355Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M95.197 9.528c-1.138 0-2.077.41-2.839 1.204-.76.795-1.148 1.773-1.148 2.957s.387 2.162 1.148 2.956c.774.795 1.713 1.192 2.839 1.192 1.125 0 2.064-.397 2.838-1.192.761-.794 1.148-1.772 1.148-2.956v-.014c0-1.17-.387-2.148-1.148-2.943-.774-.808-1.7-1.204-2.838-1.204Zm-3.029 1.012c.812-.847 1.82-1.286 3.029-1.286 1.208 0 2.203.425 3.028 1.287.812.847 1.225 1.895 1.225 3.134v.014c0 1.253-.413 2.3-1.225 3.149-.826.848-1.834 1.273-3.028 1.273-1.195 0-2.202-.425-3.028-1.272v-.001c-.813-.848-1.226-1.896-1.226-3.149 0-1.253.413-2.3 1.225-3.149Zm.747.699a3.042 3.042 0 0 1 2.282-.972c.902 0 1.656.33 2.268.972.614.644.918 1.46.918 2.45 0 .99-.304 1.806-.917 2.45-.6.644-1.368.972-2.27.972-.901 0-1.669-.329-2.281-.972h-.001c-.6-.645-.904-1.474-.904-2.45 0-.974.29-1.805.905-2.45Zm2.282-.698c-.832 0-1.53.3-2.092.89-.558.586-.828 1.343-.828 2.258 0 .913.282 1.672.829 2.26.56.588 1.26.889 2.09.889.833 0 1.53-.301 2.078-.889v-.001c.56-.588.843-1.332.843-2.259 0-.926-.283-1.671-.842-2.259a2.75 2.75 0 0 0-2.078-.89Z" fill="#2D2D3A"></path><path d="M101.786 17.797h-1.026V9.584h1.253l3.893 6.393h.04l-.04-1.588V9.584h1.027v8.213h-1.067l-4.066-6.694h-.04l.04 1.588v5.12l-.014-.014Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M100.627 9.447h1.461l3.715 6.1-.029-1.156V9.447h1.293v8.488h-1.274l-3.888-6.401.029 1.156v5.452l-.202-.207h-1.105V9.447Zm1.04 8.214v-4.968l-.044-1.726h.251l4.067 6.694h.859V9.72h-.76v4.666l.044 1.727h-.251L101.94 9.72h-1.046v7.94h.773Z" fill="#2D2D3A"></path><path d="M90.854 29.772c-3.133 0-5.693 2.45-5.693 5.818 0 3.367 2.56 5.817 5.693 5.817 3.134 0 5.694-2.464 5.694-5.817 0-3.354-2.56-5.818-5.694-5.818Zm0 9.35c-1.72 0-3.2-1.452-3.2-3.532 0-2.081 1.48-3.532 3.2-3.532 1.72 0 3.2 1.437 3.2 3.532 0 2.094-1.48 3.531-3.2 3.531Zm-12.413-9.35c-3.133 0-5.693 2.45-5.693 5.818 0 3.367 2.56 5.817 5.693 5.817 3.133 0 5.693-2.464 5.693-5.817 0-3.354-2.56-5.818-5.693-5.818Zm0 9.35c-1.72 0-3.2-1.452-3.2-3.532 0-2.081 1.48-3.532 3.2-3.532 1.72 0 3.2 1.437 3.2 3.532 0 2.094-1.48 3.531-3.2 3.531Zm-14.773-7.57v2.463h5.76c-.174 1.383-.627 2.41-1.307 3.108-.84.862-2.147 1.807-4.44 1.807-3.547 0-6.32-2.93-6.32-6.571 0-3.641 2.773-6.57 6.32-6.57 1.907 0 3.307.766 4.333 1.765l1.694-1.738c-1.44-1.41-3.347-2.492-6.04-2.492-4.854 0-8.934 4.052-8.934 9.049 0 4.996 4.08 9.048 8.934 9.048 2.626 0 4.6-.876 6.146-2.532 1.587-1.63 2.08-3.93 2.08-5.777 0-.575-.04-1.109-.133-1.547h-8.093v-.014Zm60.413 1.916c-.467-1.3-1.907-3.71-4.853-3.71-2.947 0-5.347 2.355-5.347 5.818 0 3.258 2.4 5.818 5.627 5.818 2.6 0 4.106-1.63 4.72-2.574l-1.934-1.328c-.64.972-1.52 1.616-2.786 1.616-1.267 0-2.174-.589-2.747-1.766l7.587-3.217-.254-.657h-.013Zm-7.733 1.944c-.067-2.245 1.693-3.395 2.96-3.395.986 0 1.826.506 2.106 1.232l-5.066 2.163Zm-6.16 5.64h2.493V23.94h-2.493v17.111Zm-4.08-9.994h-.08c-.56-.684-1.627-1.3-2.987-1.3-2.84 0-5.44 2.56-5.44 5.845 0 3.286 2.6 5.804 5.44 5.804 1.347 0 2.427-.615 2.987-1.327h.08v.835c0 2.231-1.16 3.422-3.027 3.422-1.52 0-2.467-1.123-2.853-2.067l-2.174.93c.627 1.548 2.28 3.437 5.027 3.437 2.92 0 5.387-1.766 5.387-6.065V30.114h-2.36v.944Zm-2.854 8.05c-1.72 0-3.16-1.479-3.16-3.505s1.44-3.545 3.16-3.545c1.72 0 3.027 1.506 3.027 3.545 0 2.04-1.333 3.505-3.027 3.505Zm32.507-15.168h-5.96v17.111h2.493v-6.488h3.48c2.76 0 5.467-2.053 5.467-5.311s-2.707-5.312-5.467-5.312h-.013Zm.067 8.255h-3.534v-5.873h3.534c1.866 0 2.92 1.588 2.92 2.93 0 1.341-1.054 2.929-2.92 2.929v.014Zm15.373-2.464c-1.8 0-3.667.821-4.44 2.614l2.213.945c.467-.945 1.347-1.26 2.267-1.26 1.28 0 2.6.794 2.613 2.204v.178c-.453-.26-1.413-.657-2.6-.657-2.386 0-4.8 1.342-4.8 3.847 0 2.286 1.947 3.764 4.134 3.764 1.666 0 2.6-.766 3.173-1.67h.08v1.315h2.4v-6.558c0-3.039-2.213-4.736-5.067-4.736l.027.014Zm-.307 9.377c-.813 0-1.946-.425-1.946-1.451 0-1.314 1.413-1.821 2.64-1.821 1.093 0 1.613.246 2.266.575-.186 1.588-1.52 2.71-2.96 2.71v-.013Zm14.107-9.008-2.853 7.42h-.08l-2.96-7.42h-2.68l4.44 10.377-2.534 5.763h2.6l6.84-16.14H165.001Zm-22.413 10.951h2.493v-17.11h-2.493v17.11Z" fill="#2D2D3A"></path><path d="m27.628 26.584-14.2 15.469c.44 1.683 1.933 2.915 3.706 2.915a3.67 3.67 0 0 0 1.947-.547l.04-.027 15.973-9.46-7.48-8.364.014.014Z" fill="#EA4335"></path><path d="M41.989 23.96h-.014l-6.893-4.12-7.773 7.105 7.8 8.008 6.866-4.066a3.96 3.96 0 0 0 2.014-3.463c0-1.492-.8-2.793-2-3.45v-.014Z" fill="#FBBC04"></path><path d="M13.428 12.705c-.08.329-.133.657-.133 1.013v27.323c0 .356.04.685.133 1.013l14.68-15.071-14.68-14.278Z" fill="#4285F4"></path><path d="m27.734 27.38 7.347-7.543-15.96-9.5a3.752 3.752 0 0 0-1.987-.562c-1.773 0-3.266 1.246-3.706 2.916l14.306 14.675v.014Z" fill="#34A853"></path></g><defs><clipPath id="googlePlay_svg__a"><path fill="#fff" d="M0 0h180v54.756H0z"></path></clipPath></defs></svg>
+            </a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="navbar-header"></div>
+<div class="nav-button d-xlg-none">
+  <div class="d-flex gap-3 justify-content-center flex-wrap mb-5 mt-4">
+    <a class="btn-custom btn-secondary-custom" role="button" href="/search"> Search <i class="fa-solid fa-magnifying-glass ms-3"></i></a>
+    <a class="btn-custom btn-primary-custom" role="button" href="#" target="_blank" rel="noopener" data-bs-toggle="modal" data-bs-target="#downloadAppModal"> <strong>Download the App&nbsp;&nbsp;</strong><span class="btn-icon-mask arrow-right"></span></a>
+  </div>
+</div>
+<div id="navbar" class="container--main">
+  <nav class="navbar navbar-expand-xlg bg-bright-gray mb-4 mx-xlg-0 mx-3 rounded-pill py-xlg-3">
+    <div class="container-fluid">
+      <a class="navbar-brand h-40p mx-4" href="/">
+        <img src="/static-assets/images/logo-dark-2.png" alt="Logo" class="h-100" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="d-xlg-flex justify-content-between w-100">
+          <ul class="navbar-nav d-xlg-flex align-items-xlg-center">
+            <li class="nav-item dropdown">
+              <a class="nav-link px-0 d-flex align-items-center me-xlg-3 dropdown-toggle justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="ps-xlg-3 me-1">Save & Invest</div>
+                <i class="fa-solid fa-angle-down ms-1"></i>
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item p-xlg-2 text-secondary nav-link d-flex align-items-center" href="/save-and-invest">Save</a></li>
+                <li><a class="dropdown-item p-xlg-2 text-secondary nav-link d-flex align-items-center" href="/crypto">Crypto</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link px-0 d-flex align-items-center me-xlg-3 dropdown-toggle justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="ps-xlg-3 me-1">Move Money</div>
+                <i class="fa-solid fa-angle-down ms-1"></i>
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item p-xlg-2 text-secondary nav-link d-flex align-items-center" href="/move-money">Transfers</a></li>
+                <li><a class="dropdown-item p-xlg-2 text-secondary nav-link d-flex align-items-center" href="/remittances">Remittances</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-0 d-flex align-items-center me-3" href="/service">
+                <div class="ps-xlg-3 me-2">Service</div>
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-0 d-flex align-items-center me-xlg-3 dropdown-toggle justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="ps-xlg-3 me-1">Shop</div>
+                <i class="fa-solid fa-angle-down ms-1"></i>
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item p-xlg-2 text-secondary nav-link d-flex align-items-center" href="/payments">Payments</a></li>
+                <li><a class="dropdown-item p-xlg-2 text-secondary nav-link d-flex align-items-center" href="/payments#rewards">Rewards</a></li>
+                <li><a class="dropdown-item p-xlg-2 text-secondary nav-link d-flex align-items-center" href="/promos">Promos</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-0 d-flex align-items-center me-xlg-3 dropdown-toggle justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="ps-xlg-3 me-1">Credit</div>
+                <i class="fa-solid fa-angle-down ms-1"></i>
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item p-xlg-2 text-secondary nav-link d-flex align-items-center" href="/moretyme">MoreTyme</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link px-0 d-flex align-items-center me-xlg-3 dropdown-toggle justify-content-between" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="ps-xlg-3 me-1">Media</div>
+                <i class="fa-solid fa-angle-down ms-1"></i>
+              </a>
+              <ul class="dropdown-menu border-0">
+                <li><a class="dropdown-item p-xlg-2 text-secondary nav-link d-flex align-items-center" href="/news">News </a></li>
+                <li><a class="dropdown-item p-xlg-2 text-secondary nav-link d-flex align-items-center" href="/stories">Stories </a></li>
+                <li><a class="dropdown-item p-xlg-2 text-secondary nav-link d-flex align-items-center" href="/videos">Videos</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link px-0 d-flex align-items-center me-3" href="/help">
+                <div class="ps-xlg-3 me-2">Help</div>
+              </a>
+            </li>
+          </ul>
+
+          <div class="d-xlg-flex gap-4 justify-content-center flex-wrap d-none me-xlg-4">
+            <ul class="navbar-nav">
+              <li class="nav-item d-flex align-items-center">
+                <a class="nav-link px-0" href="/search">
+                  <div class="px-xlg-2 border-xlg-end">
+                    Search<i class="fa-solid fa-magnifying-glass" style="margin-left: .75rem"></i>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <a class="btn-custom btn-primary-custom" role="button" href="#" target="_blank" rel="noopener" data-bs-toggle="modal" data-bs-target="#downloadAppModal"><strong>Download now</strong></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+    
+
+    <div
+        class="container-fluid"
+    >    <div
+    >
+    <div
+        style="position: relative; overflow:hidden; overflow: visible !important;"
+        id=""
+        class=" mb-5 position-initial"
+    >
+  <!-- Video background -->
+    <video autoplay muted loop playsinline webkit-playsinline
+        poster="/static-assets/static-header.jpg"
+      preload="metadata"
+      class="rounded-bottom-5 px-0"
+      style="position: absolute; left: 0; width: 100%; height: 100%; z-index: 0;   border: none; outline: none; object-fit:cover; min-height:100dvh; min-height:100vh;">
+      <source src="/static-assets/videos/Animated Header Size.mp4" type="video/mp4" playsinline>
+    </video>
+
+  <!-- Foreground content -->
+  <div style="position: relative; z-index: 1; width: 100%;">
+        
+    <div
+        style=""
+        class="col-lg-12 col-md- px-0"
+    >          
+    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="rounded-bottom-5 d-flex justify-content-center align-items-end responsive-banner" style="background-image: url(''); min-height:100dvh; min-height: 100vh;     background-position: 50%;     background-repeat: no-repeat;     background-size: cover;">
+    <div
+        style=""
+        class="text-content-wrapper"
+    >              <h2 style="line-height: 1.2; text-align: center;"><span style="color: #ffffff;"><strong><span style="font-family: Larken;">Switch to the<br></span></strong></span><span style="color: #ffffff;"><strong><span style="font-family: Larken;">fastest-growing bank in the Philippines.</span></strong></span><br></h2>
+<p style="text-align: center; line-height: 1.2;"><span style="color: #ffffff;">Banking with GoTyme Bank is more than transactional - it&rsquo;s a beautiful experience. </span><span style="color: #ffffff;">Join millions of Filipinos who made the switch to banking made beautiful.</span></p>
+<p style="text-align: center; line-height: 1.2;"><strong><a class="btn-custom btn-primary-custom" role="button" href="#" target="_blank" rel="noopener" data-bs-toggle="modal" data-bs-target="#downloadAppModal"><strong>Switch to Beautiful&nbsp; </strong> <span class="btn-icon-mask arrow-right">&nbsp;</span></a> &nbsp;</strong></p>
+<p style="line-height: 1.2; text-align: center;">&nbsp;</p>
+</div>
+</div></div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row container--main card-container my-5 px-0"
+    >      
+    <div
+        style=""
+        class="col-lg-4 col-md-6 mb-4"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    ><div class="card feature-card position-relative border-2 rounded-5 overflow-hidden border-light-subtle" style="">
+  
+  <div class="card-body d-flex flex-column justify-content-between p-4">
+    <div
+    >            <h6 style="text-align: center;"><strong><span style="font-family: Larken;">Save</span></strong></h6>
+<p style="text-align: center;"><br><span style="font-size: 12pt;">Simplify your savings without any missions or limits while earning high interest.</span><br></p>
+</div>
+  <div class="d-flex justify-content-center">
+            <a href="/save-and-invest" class="btn btn-custom btn-primary-custom" style="">
+    <span
+    >                    Learn more
+</span>
+                <span class="btn-icon-mask arrow-right ms-1"></span>
+            </a>
+    
+  </div>
+  </div>
+    <img
+        src="/static-assets/images/kira.jpg"
+        alt="card image"
+        class=""
+    >
+</div></div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-4 col-md-6 mb-4"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    ><div class="card feature-card position-relative border-2 rounded-5 overflow-hidden border-light-subtle" style="">
+  
+  <div class="card-body d-flex flex-column justify-content-between p-4">
+    <div
+    >            <h6 style="text-align: center;"><strong><span style="font-family: Larken;">Shop</span></strong></h6>
+<p style="text-align: center;"><span style="font-size: 12pt;"><br>The beautiful GoTyme Bank Visa debit card is your key to earning Go Rewards points with every purchase in-store, online, or even abroad.</span></p>
+</div>
+  <div class="d-flex justify-content-center">
+            <a href="/payments" class="btn btn-custom btn-primary-custom" style="">
+    <span
+    >                    Learn more
+</span>
+                <span class="btn-icon-mask arrow-right ms-1"></span>
+            </a>
+    
+  </div>
+  </div>
+    <img
+        src="/static-assets/images/bianca.jpg"
+        alt="card image"
+        class=""
+    >
+</div></div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-4 col-md-6 mb-4"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    ><div class="card feature-card position-relative border-2 rounded-5 overflow-hidden border-light-subtle" style="">
+  
+  <div class="card-body d-flex flex-column justify-content-between p-4">
+    <div
+    >            <h6 style="text-align: center;"><strong><span style="font-family: Larken;">Move Money<br></span></strong></h6>
+<p style="text-align: center;"><br><span style="font-size: 12pt;">Transfer money to other local banks with a low fee, or deposit locally-issued checks securely via the GoTyme Bank app.</span><br></p>
+</div>
+  <div class="d-flex justify-content-center">
+            <a href="/move-money" class="btn btn-custom btn-primary-custom" style="">
+    <span
+    >                    Learn more
+</span>
+                <span class="btn-icon-mask arrow-right ms-1"></span>
+            </a>
+    
+  </div>
+  </div>
+    <img
+        src="/static-assets/images/sandro.jpg"
+        alt="card image"
+        class=""
+    >
+</div></div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-4 col-md-6 mb-4 offset-lg-2"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    ><div class="card feature-card position-relative border-2 rounded-5 overflow-hidden border-light-subtle" style="">
+  
+  <div class="card-body d-flex flex-column justify-content-between p-4">
+    <div
+    >            <h6 style="text-align: center;"><strong><span style="font-family: Larken;"><br class="d-none d-lg-block">Service</span></strong></h6>
+<p style="text-align: center;"><br><span style="font-size: 12pt;">There&rsquo;s always a helpful human at the other end of your call, chat or email whenever you need account-related assistance.</span></p>
+</div>
+  <div class="d-flex justify-content-center">
+            <a href="/service" class="btn btn-custom btn-primary-custom" style="">
+    <span
+    >                    Learn more
+</span>
+                <span class="btn-icon-mask arrow-right ms-1"></span>
+            </a>
+    
+  </div>
+  </div>
+    <img
+        src="/static-assets/images/sarah.jpg"
+        alt="card image"
+        class=""
+    >
+</div></div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-4 col-md-6 mb-4"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    ><div class="card feature-card position-relative border-2 rounded-5 overflow-hidden border-light-subtle" style="">
+  
+  <div class="card-body d-flex flex-column justify-content-between p-4">
+    <div
+    >            <p style="text-align: center; margin-top: 15px; margin-bottom: 0px;"><span style="color: #5219e7; line-height: 140%; font-size: 16px;"><strong>IN EARLY ACCESS</strong></span></p>
+<h6 style="text-align: center;"><strong><span style="font-family: Larken;">Credit</span></strong></h6>
+<p style="text-align: center;"><br><span style="font-size: 12pt;">Split big purchases into multiple installments simply by paying via QR Ph on the GoTyme Bank app.</span><br></p>
+</div>
+  <div class="d-flex justify-content-center">
+            <a href="/moretyme" class="btn btn-custom btn-primary-custom" style="">
+    <span
+    >                    Learn more
+</span>
+                <span class="btn-icon-mask arrow-right ms-1"></span>
+            </a>
+    
+  </div>
+  </div>
+    <img
+        src="/static-assets/images/sean.jpg"
+        alt="card image"
+        class=""
+    >
+</div></div>
+</div>
+</div>
+</div>
+</div>
+    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; display:none;"
+        id=""
+        class="row mb-5 gx-4 ps-1 ps-md-2 ps-lg-2"
+    >      
+    <div
+        style=""
+        class="col-lg-12 col-md- ps-lg-5 ps-4 pe-0"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+<div id="carousel-tile-slider" class="owl-carousel owl-theme owl-loaded">
+    <div class="owl-stage-outer">
+        <div class="owl-stage">
+              <div class="owl-item">
+    <div
+    >    <div
+        data-craftercms-type="collection"
+    >    <div
+    ><div class="card feature-card position-relative border-2 rounded-5 overflow-hidden border-light-subtle" style="width: 400px;">
+  
+  <div class="card-body d-flex flex-column justify-content-between p-4">
+    <div
+    >            <h6 style="text-align: center;"><strong><span style="font-family: Larken;">Save</span></strong></h6>
+<p style="text-align: center;"><br><span style="font-size: 12pt;">Simplify your savings without any missions or limits while earning high interest.</span><br></p>
+</div>
+  <div class="d-flex justify-content-center">
+            <a href="/save-and-invest" class="btn btn-sm rounded-pill px-3 bg-aqua d-flex align-items-center" style="">
+    <span
+    >                    Learn more
+</span>
+                <span class="btn-icon-mask arrow-right ms-1"></span>
+            </a>
+    
+  </div>
+  </div>
+    <img
+        src="/static-assets/images/kira.jpg"
+        alt="card image"
+        class=""
+    >
+</div></div>
+</div>
+</div>
+              </div>
+              <div class="owl-item">
+    <div
+    >    <div
+        data-craftercms-type="collection"
+    >    <div
+    ><div class="card feature-card position-relative border-2 rounded-5 overflow-hidden border-light-subtle" style="width: 400px;">
+  
+  <div class="card-body d-flex flex-column justify-content-between p-4">
+    <div
+    >            <h6 style="text-align: center;"><strong><span style="font-family: Larken;">Shop</span></strong></h6>
+<p style="text-align: center;"><span style="font-size: 12pt;"><br>The beautiful GoTyme Bank Visa debit card is your key to earning Go Rewards points with every purchase in-store, online, or even abroad.</span></p>
+</div>
+  <div class="d-flex justify-content-center">
+            <a href="/shop" class="btn btn-sm rounded-pill px-3 bg-aqua d-flex align-items-center" style="">
+    <span
+    >                    Learn more
+</span>
+                <span class="btn-icon-mask arrow-right ms-1"></span>
+            </a>
+    
+  </div>
+  </div>
+    <img
+        src="/static-assets/images/bianca.jpg"
+        alt="card image"
+        class=""
+    >
+</div></div>
+</div>
+</div>
+              </div>
+              <div class="owl-item">
+    <div
+    >    <div
+        data-craftercms-type="collection"
+    >    <div
+    ><div class="card feature-card position-relative border-2 rounded-5 overflow-hidden border-light-subtle" style="width: 400px;">
+  
+  <div class="card-body d-flex flex-column justify-content-between p-4">
+    <div
+    >            <h6 style="text-align: center;"><strong><span style="font-family: Larken;">Move Money<br></span></strong></h6>
+<p style="text-align: center;"><br><span style="font-size: 12pt;">Transfer money to other local banks with a low fee, or deposit locally-issued checks securely via the GoTyme Bank app.</span><br></p>
+</div>
+  <div class="d-flex justify-content-center">
+            <a href="/move-money" class="btn btn-sm rounded-pill px-3 bg-aqua d-flex align-items-center" style="">
+    <span
+    >                    Learn more
+</span>
+                <span class="btn-icon-mask arrow-right ms-1"></span>
+            </a>
+    
+  </div>
+  </div>
+    <img
+        src="/static-assets/images/sandro.jpg"
+        alt="card image"
+        class=""
+    >
+</div></div>
+</div>
+</div>
+              </div>
+              <div class="owl-item">
+    <div
+    >    <div
+        data-craftercms-type="collection"
+    >    <div
+    ><div class="card feature-card position-relative border-2 rounded-5 overflow-hidden border-light-subtle" style="width: 400px;">
+  
+  <div class="card-body d-flex flex-column justify-content-between p-4">
+    <div
+    >            <h6 style="text-align: center;"><strong><span style="font-family: Larken;">Service</span></strong></h6>
+<p style="text-align: center;"><br><span style="font-size: 12pt;">There&rsquo;s always a helpful human at the other end of your call, chat or email whenever you need account-related assistance.</span></p>
+</div>
+  <div class="d-flex justify-content-center">
+            <a href="/service" class="btn btn-sm rounded-pill px-3 bg-aqua d-flex align-items-center" style="">
+    <span
+    >                    Learn more
+</span>
+                <span class="btn-icon-mask arrow-right ms-1"></span>
+            </a>
+    
+  </div>
+  </div>
+    <img
+        src="/static-assets/images/sarah.jpg"
+        alt="card image"
+        class=""
+    >
+</div></div>
+</div>
+</div>
+              </div>
+              <div class="owl-item">
+    <div
+    >    <div
+        data-craftercms-type="collection"
+    >    <div
+    ><div class="card feature-card position-relative border-2 rounded-5 overflow-hidden border-light-subtle" style="width: 400px;">
+  
+  <div class="card-body d-flex flex-column justify-content-between p-4">
+    <div
+    >            <h6 style="text-align: center;"><strong><span style="font-family: Larken;">Credit</span></strong></h6>
+<p style="text-align: center;"><span style="font-size: 12pt;"><br><span style="color: #5219e7; line-height: 140%; font-size: 16px;"><strong>In Early Access</strong></span><br>Split big purchases into multiple installments simply by paying via QR Ph on the GoTyme Bank app.</span><br></p>
+</div>
+  <div class="d-flex justify-content-center">
+            <a href="/pay-later?faq-tags=bnpl" class="btn btn-sm rounded-pill px-3 bg-aqua d-flex align-items-center" style="">
+    <span
+    >                    Learn more
+</span>
+                <span class="btn-icon-mask arrow-right ms-1"></span>
+            </a>
+    
+  </div>
+  </div>
+    <img
+        src="/static-assets/images/sean.jpg"
+        alt="card image"
+        class=""
+    >
+</div></div>
+</div>
+</div>
+              </div>
+        </div>
+    </div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row "
+    >      
+    <div
+        style=""
+        class="col-lg-12 col-md- px-0"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+    <div
+        class="container-fluid"
+    >    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row mb-5 container--main"
+    >      
+    <div
+        style=""
+        class="col-lg-12 col-md- px-0 py-5"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="rounded-5 px-lg-5 px-3 pt-lg-5 pt-4 pt-lg-5 pt-4 responsive-section bg-bright-gray d-flex justify-content-end account-opening-wrapper account-opening-img" style="background-image: url('/static-assets/images/home_kiosk.jpg'); background-position: 0% 100%;     background-repeat: no-repeat;     background-size: contain;">
+    <div
+        style=""
+        class="text-content-wrapper text-wrapper-tablet ps-3"
+    >              <h3 style="line-height: 1.2;"><strong><span style="font-family: Larken;">An account and debit card in 5 </span></strong><strong><span style="font-family: Larken;">minutes</span></strong></h3>
+<p style="line-height: 1.2;"><br>Download the GoTyme Bank app to get started, or visit any of our kiosks to open an account and print your Visa debit card - whichever works for you.</p>
+<p><br></p>
+<p><a class="btn-custom btn-primary-custom mb-3" href="#" target="_blank" rel="noopener" data-bs-toggle="modal" data-bs-target="#downloadAppModal"><strong>Download the app <span class="btn-icon-mask arrow-right">&nbsp;</span></strong></a> &nbsp;<a class="btn-custom btn-secondary-custom mb-3" href="/kiosk-locations"><strong>Find a kiosk <span class="btn-icon-mask arrow-right">&nbsp;</span></strong></a><strong> &nbsp;</strong></p>
+<p>&nbsp;</p>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    <div
+    >
+    <div
+        style="position: relative; overflow:hidden; "
+        id=""
+        class=" account-opening-wrapper"
+    >
+  <!-- Video background -->
+    <video autoplay muted loop playsinline webkit-playsinline
+      preload="metadata"
+      class="video-globe"
+      style="position: absolute; left: 0; width: 100%; height: 100%; z-index: 0;   border: none; outline: none; object-fit:cover;">
+      <source src="/static-assets/videos/Globe Updated Size.mp4" type="video/mp4" playsinline>
+    </video>
+
+  <!-- Foreground content -->
+  <div style="position: relative; z-index: 1; width: 100%;">
+        
+    <div
+        style=""
+        class="col-lg-12 col-md- "
+    >          
+    <div
+        class="h-100 h-100"
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 h-100"
+    >
+    <section
+        style=" "
+        id=""
+        class="container--main h-100"
+    >    <div
+        style=""
+        class="h-100"
+    >    <div
+        class="h-100"
+    >
+
+<div class="responsive-section d-flex align-items-lg-center pt-4 account-opening-wrapper" style="background-image: url(''); ">
+    <div
+        style=""
+        class="text-content-wrapper text-wrapper-tablet"
+    >              <h3 style="line-height: 1.2;"><strong><span style="font-family: Larken;">Rewards any way you pay, anywhere in the world</span></strong></h3>
+<p style="line-height: 1.2;"><br>Paying via our Visa debit card or QR Ph, or paying your bills and buying mobile load on our app earns you points powered by Go Rewards.<br><br>Use these points to pay in partner stores, or redeem them as cash on the app. That&rsquo;s money spent that you can earn back.</p>
+<p><br></p>
+<p><a class="btn-custom btn-primary-custom" href="/payments#rewards"><strong>Discover Go Rewards <span class="btn-icon-mask arrow-right">&nbsp;</span></strong></a></p>
+<p><br></p>
+</div>
+</div></div>
+</div>
+    
+</section>
+</div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row "
+    >      
+    <div
+        style=""
+        class="col-lg-12 col-md- px-0"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+    <div
+        class="container-fluid"
+    >    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row container--main"
+    >      
+    <div
+        style=""
+        class="col-lg-12 col-md- px-0"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="rounded-5 px-lg-5 px-3 pt-4 d-flex align-items-lg-center justify-content-end bg-bright-gray account-opening-wrapper account-opening-mobile responsive-section" style="background-image: url('/static-assets/images/security-3.jpg'); background-position: bottom left;     background-repeat: no-repeat;     background-size: contain;">
+    <div
+        style=""
+        class="text-content-wrapper text-wrapper-tablet ps-3"
+    >              <h3><span style="color: #2b2b38;"><strong><span style="font-family: Larken;">Security you can <br></span></strong></span><span style="color: #2b2b38;"><strong><span style="font-family: Larken;">bank on</span></strong></span></h3>
+<p style="line-height: 1.2;"><span style="color: #2b2b38;"><br>GoTyme Bank is built on the same security infrastructure as NASA, ensuring your money and private information are secured in a globally-approved system.</span></p>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; min-height: 650px;"
+        id=""
+        class="row d-flex align-items-center container--main"
+    >      
+    <div
+        style=""
+        class="col-lg-12 col-md- "
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <h3 style="line-height: 1.2; text-align: center;"><strong><span style="font-family: Larken;">Switch to Banking </span></strong><strong><span style="font-family: Larken;">Made Beautiful</span></strong></h3>
+<p style="line-height: 1.2; text-align: center;"><br></p>
+<p style="text-align: center; line-height: 1;"><a class="btn px-0 d-flex align-items-center justify-content-center" href="#" data-bs-toggle="modal" data-bs-target="#downloadAppModal"><img src="/static-assets/gtb-logo.png" alt="gtb-logo.png" width="58" height="58">&nbsp; &nbsp; <span style="color: #2d2d3a;">Download the GoTyme Bank app</span></a></p>
+<p style="line-height: 1.2; text-align: center;"><br></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    
+
+
+    <footer
+        style=""
+        class="container-fluid px-lg-5 pt-5 bg-gunmetal position-relative z-1 rounded-top-5"
+    >    <div class="">
+    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row mb-4 container--main"
+    >      
+    <div
+        style=""
+        class="col-lg-12 col-md- mb-4"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <p style="text-align: center;"><img src="/static-assets/images/footer/gotyme-bank-logo.svg" alt="Gotyme Logo" width="154" height="52"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-8 col-md- mb-4 d-none"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+    <div
+        class="container-fluid"
+    >    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row "
+    >      
+    <div
+        style=""
+        class="col-lg-3 col-md- mb-4 col-6"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <h5><span style="font-size: 18pt;"><strong><span style="color: #ffffff;">Features</span></strong></span></h5>
+<p><br></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/save-and-invest">Save &amp; Invest</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/shop">Shop</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/move-money">Move Money</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/service">Service</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="//pay-later?faq-tags=bnpl">MoreTyme</a></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-3 col-md- mb-4 col-6"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <h5><span style="font-size: 18pt;"><strong><span style="color: #ffffff;">Company</span></strong></span></h5>
+<p><br></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/about-us">About Us</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/media">Media</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/stories">Stories</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/news">News</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/videos">Videos</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/promos">Promos</a></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-3 col-md- mb-4 col-6"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <h5><strong><span style="font-size: 18pt;"><span style="color: #ffffff;">Help</span></span></strong></h5>
+<p><br></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/help">Help Center</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/kiosk-locations">Kiosk Locations</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/help/contact-us">Contact Us</a></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-3 col-md- mb-4 col-6"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <h5><span style="font-size: 18pt;"><strong><span style="color: #ffffff;">Useful Links</span></strong></span></h5>
+<p><br /></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/corporate-governance">Corporate Governance</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/consumer-protection">Consumer Protection</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/bank-products">Bank Products</a></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-3 col-md- mb-4 px-0 order-lg-1 order-2 pt-3 pt-lg-0"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+    <div
+        class="container-fluid"
+    >    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row text-center text-lg-start"
+    >      
+    <div
+        style=""
+        class="col-lg-12 col-md- "
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <p><span style="color: #ffffff;"><strong>Connect with us</strong></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-12 col-md- py-2 mb-4 col-10 m-auto mx-lg-0 mt-lg-0"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+    <div
+        class="row d-flex justify-content-center"
+    >      <div $field="socialButtons_o" class="col-2 text-center" $index=index>
+    <a
+        role="button"
+        style="color:white; font-size:25px;"
+        href="https://www.facebook.com/GoTymeBank"
+        class=""
+        target="_blank"
+    >            <i class="fa-brands fa-facebook-f" style=""></i>
+</a>
+      </div>
+      <div $field="socialButtons_o" class="col-2 text-center" $index=index>
+    <a
+        role="button"
+        style="color:white; font-size:28px;"
+        href="https://www.instagram.com/gotymebank/"
+        class=""
+        target="_blank"
+    >            <i class="fa-brands fa-instagram" style=""></i>
+</a>
+      </div>
+      <div $field="socialButtons_o" class="col-2 text-center" $index=index>
+    <a
+        role="button"
+        style="color:white; font-size:25px;"
+        href="https://x.com/gotymebank"
+        class=""
+        target="_blank"
+    >            <i class="fa-brands fa-x-twitter" style=""></i>
+</a>
+      </div>
+      <div $field="socialButtons_o" class="col-2 text-center" $index=index>
+    <a
+        role="button"
+        style="color:white; font-size:25px;"
+        href="https://www.youtube.com/channel/UCHW0F8VKQ9hSFZxxWNsjfLw"
+        class=""
+        target="_blank"
+    >            <i class="fa-brands fa-youtube" style=""></i>
+</a>
+      </div>
+      <div $field="socialButtons_o" class="col-2 text-center" $index=index>
+    <a
+        role="button"
+        style="color:white; font-size:25px;"
+        href="https://www.linkedin.com/company/gotymebank/mycompany/"
+        class=""
+        target="_blank"
+    >            <i class="fa-brands fa-linkedin-in" style=""></i>
+</a>
+      </div>
+      <div $field="socialButtons_o" class="col-2 text-center" $index=index>
+    <a
+        role="button"
+        style="color:white; font-size:25px;"
+        href="https://www.tiktok.com/@gotymebank"
+        class=""
+        target="_blank"
+    >            <i class="fa-brands fa-tiktok" style=""></i>
+</a>
+      </div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-12 col-md- col-10 m-auto m-lg-0"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <p class="d-flex justify-content-evenly gap-3"><a href="https://apps.apple.com/ph/app/gotyme-bank/id1637067963"><img style="font-size: 16.92px;" src="/static-assets/images/footer/ios-badge.svg" alt="" width="168" height="56"></a><a href="https://play.google.com/store/apps/details?id=ph.com.gotyme&amp;hl=en"><img src="/static-assets/images/footer/google-play-badge.svg" alt="google-play" width="187" height="55"></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row mb-4 d-none"
+    >      
+    <div
+        style=""
+        class="col-lg-11 col-md- "
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+    <div
+        class="container-fluid"
+    >    <div
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <p style="line-height: 1.2;"><span style="color: #c0c0c4;">App store and the Apple logo are trademarks or registered trademarks of Apple Inc., registered in the United States and other countries. Google Play and the Google Play logo are trademarks or registered trademarks of Google LLC, registered in the United States and other <span style="color: #ecf0f1;"><span style="color: #ced4d9;">countries</span>.</span></span></p>
+</div>
+</div>
+</div>
+    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row px-0"
+    >      
+    <div
+        style=""
+        class="col-lg-6 col-md-6 mb-4 text-center"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+    <a
+        role="button"
+        href="https://apps.apple.com/ph/app/gotyme-bank/id1637067963"
+        class="dl-link apple"
+        target="_blank"
+    >
+<svg viewbox="0 0 180 55" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#appStore_svg__a)" fill="#fff"><path d="M173.042 1.192a5.776 5.776 0 0 1 4.072 1.684 5.738 5.738 0 0 1 1.69 4.061v40.71a5.738 5.738 0 0 1-1.69 4.061 5.776 5.776 0 0 1-4.072 1.684H6.957a5.777 5.777 0 0 1-4.072-1.684 5.744 5.744 0 0 1-1.69-4.06V6.937a5.744 5.744 0 0 1 1.69-4.061 5.777 5.777 0 0 1 4.072-1.685h166.085Zm0-1.192H6.957c-1.845 0-3.615.73-4.92 2.032A6.928 6.928 0 0 0 0 6.937v40.71c0 1.84.733 3.605 2.038 4.906a6.967 6.967 0 0 0 4.92 2.032h166.084a6.97 6.97 0 0 0 4.92-2.032A6.931 6.931 0 0 0 180 47.647V6.937a6.93 6.93 0 0 0-2.038-4.905A6.97 6.97 0 0 0 173.042 0Z"></path><path d="M18.95 22.303c-2.921 5.052-1.065 12.72 2.165 17.37 1.611 2.324 3.243 4.412 5.478 4.412h.128c1.05-.042 1.809-.364 2.542-.675.823-.35 1.673-.715 3.012-.715 1.271 0 2.083.35 2.87.689.787.338 1.57.68 2.75.657 2.518-.047 4.065-2.3 5.427-4.285a18.904 18.904 0 0 0 2.378-4.858l.01-.03a.282.282 0 0 0-.151-.346l-.02-.008c-.444-.182-4.334-1.908-4.374-6.591-.037-3.81 2.917-5.827 3.51-6.193l.028-.018a.28.28 0 0 0 .08-.395c-2.04-2.98-5.166-3.425-6.425-3.48a5.39 5.39 0 0 0-.56-.027c-1.479 0-2.896.557-4.033 1.004-.785.309-1.464.576-1.932.576-.526 0-1.209-.27-1.998-.583-1.057-.417-2.255-.892-3.522-.892h-.09c-2.953.043-5.738 1.725-7.274 4.388Z"></path><path d="M38.357 9.638c-1.785.072-3.926 1.168-5.207 2.663-1.088 1.255-2.152 3.351-1.87 5.463a.281.281 0 0 0 .259.238c.12.01.239.015.365.015 1.746 0 3.63-.964 4.916-2.514 1.353-1.636 2.032-3.738 1.83-5.62a.285.285 0 0 0-.293-.245ZM58.898 10.729h3.385a4.961 4.961 0 0 1 2.365.548 4.019 4.019 0 0 1 1.607 1.517 4.496 4.496 0 0 1 0 4.399 4.013 4.013 0 0 1-1.607 1.517 4.973 4.973 0 0 1-2.365.549h-3.385v-8.53Zm3.337 7.97a4.477 4.477 0 0 0 2.09-.469 3.36 3.36 0 0 0 1.393-1.311 4.044 4.044 0 0 0 0-3.851 3.358 3.358 0 0 0-1.394-1.312 4.464 4.464 0 0 0-2.089-.47h-2.714V18.7h2.714ZM69.66 18.893a2.993 2.993 0 0 1-1.144-1.152 3.542 3.542 0 0 1 0-3.326c.268-.482.663-.88 1.143-1.152a3.414 3.414 0 0 1 3.263 0c.48.272.875.67 1.142 1.152a3.534 3.534 0 0 1 0 3.326c-.267.482-.662.88-1.142 1.152a3.413 3.413 0 0 1-3.263 0Zm2.944-.477c.388-.228.705-.558.917-.954a3.038 3.038 0 0 0 0-2.778 2.446 2.446 0 0 0-.917-.953 2.693 2.693 0 0 0-2.63 0 2.442 2.442 0 0 0-.916.953 3.038 3.038 0 0 0 0 2.778c.212.396.528.726.916.954a2.693 2.693 0 0 0 2.63 0ZM85.306 12.897l-2.42 6.362h-.574l-2.152-5.52-2.162 5.52h-.564l-2.418-6.362h.585l2.125 5.682 2.175-5.678h.525l2.164 5.666 2.152-5.666.564-.004ZM91.73 13.543c.463.463.696 1.13.697 1.999v3.717h-.613v-3.668c0-.716-.18-1.26-.542-1.634-.362-.373-.87-.56-1.522-.56-.75 0-1.34.223-1.772.671-.432.447-.648 1.048-.648 1.803v3.388h-.611v-6.362h.587v1.377a2.43 2.43 0 0 1 .984-1.048 3.036 3.036 0 0 1 1.546-.378c.797 0 1.429.232 1.894.695ZM94.945 10.217h.611v9.042h-.61v-9.042ZM98.995 18.893a3.001 3.001 0 0 1-1.143-1.152 3.542 3.542 0 0 1 0-3.326c.268-.481.663-.88 1.143-1.152a3.416 3.416 0 0 1 3.263 0c.48.272.875.67 1.143 1.152a3.535 3.535 0 0 1 0 3.326c-.268.482-.663.88-1.143 1.152a3.41 3.41 0 0 1-3.263 0Zm2.945-.477c.388-.228.705-.558.917-.954a3.037 3.037 0 0 0 0-2.778 2.444 2.444 0 0 0-.917-.953 2.69 2.69 0 0 0-2.63 0 2.447 2.447 0 0 0-.917.953 3.04 3.04 0 0 0 0 2.778c.212.396.53.726.917.954a2.69 2.69 0 0 0 2.63 0ZM109.663 13.453c.423.403.634.994.634 1.774v4.033h-.585v-1.134a2.123 2.123 0 0 1-.892.872 2.965 2.965 0 0 1-1.406.311c-.71 0-1.27-.167-1.68-.5a1.725 1.725 0 0 1-.049-2.602c.379-.33.984-.494 1.815-.494h2.187v-.511c0-.593-.16-1.044-.479-1.352-.319-.309-.789-.463-1.412-.464a3.406 3.406 0 0 0-1.216.22 3.05 3.05 0 0 0-.984.585l-.305-.439c.336-.295.726-.52 1.149-.664a4.18 4.18 0 0 1 1.405-.238c.789-.001 1.394.2 1.818.603Zm-.813 4.99c.382-.258.674-.628.837-1.06v-1.192h-2.175c-.628 0-1.082.114-1.363.341a1.144 1.144 0 0 0-.421.938 1.175 1.175 0 0 0 .464.982c.31.238.746.357 1.308.357.476.014.946-.113 1.35-.367v.002ZM118.492 10.217v9.042h-.597v-1.5a2.742 2.742 0 0 1-1.065 1.146 2.999 2.999 0 0 1-1.554.403 3.177 3.177 0 0 1-1.613-.415 2.963 2.963 0 0 1-1.129-1.146 3.608 3.608 0 0 1 0-3.338 2.9 2.9 0 0 1 1.129-1.146 3.224 3.224 0 0 1 1.613-.409 2.95 2.95 0 0 1 1.534.403 2.86 2.86 0 0 1 1.069 1.121v-4.155l.613-.006Zm-1.86 8.2c.387-.228.704-.558.916-.954a3.037 3.037 0 0 0 0-2.777 2.45 2.45 0 0 0-.916-.954 2.695 2.695 0 0 0-2.63 0 2.435 2.435 0 0 0-.916.954 3.037 3.037 0 0 0 0 2.777c.211.396.528.726.916.954a2.69 2.69 0 0 0 2.63 0ZM125.073 18.893a2.984 2.984 0 0 1-1.141-1.152 3.523 3.523 0 0 1 0-3.326c.266-.482.662-.88 1.141-1.152a3.419 3.419 0 0 1 3.263 0c.48.272.876.67 1.143 1.152a3.535 3.535 0 0 1 0 3.326 2.99 2.99 0 0 1-1.143 1.152 3.41 3.41 0 0 1-3.263 0Zm2.946-.477c.388-.228.705-.558.916-.954a3.037 3.037 0 0 0 0-2.778 2.435 2.435 0 0 0-.916-.953 2.69 2.69 0 0 0-2.63 0 2.444 2.444 0 0 0-.917.953 3.037 3.037 0 0 0 0 2.778c.212.396.529.726.917.954a2.695 2.695 0 0 0 2.63 0ZM136.799 13.543c.465.463.697 1.129.697 1.999v3.717h-.611V15.59c0-.716-.182-1.26-.544-1.634-.363-.373-.87-.56-1.522-.56-.75 0-1.341.223-1.772.671-.431.447-.647 1.048-.647 1.803v3.388h-.611v-6.362h.586v1.377c.214-.44.557-.805.984-1.048a3.042 3.042 0 0 1 1.546-.378c.798 0 1.43.232 1.894.695ZM146.321 18.856a1.517 1.517 0 0 1-.58.335c-.234.079-.48.12-.727.12-.558 0-.986-.153-1.284-.459-.298-.305-.449-.73-.452-1.273v-4.155h-1.176V12.9h1.172v-1.39h.621v1.39h2.032v.524h-2.032v4.094c0 .415.1.73.3.945.2.214.495.322.886.323.364.01.718-.117.99-.358l.25.428ZM153.025 13.543c.465.463.697 1.13.697 1.999v3.717h-.611V15.59c0-.716-.181-1.26-.544-1.634-.362-.373-.869-.56-1.521-.56-.75 0-1.34.223-1.771.671-.432.447-.648 1.048-.648 1.803v3.388h-.611v-9.042h.611v4.008c.212-.431.554-.787.978-1.017a3.094 3.094 0 0 1 1.526-.357c.799-.002 1.43.229 1.894.692ZM161.646 16.225h-5.486c.007.466.138.922.379 1.322.23.38.561.69.956.895a3.072 3.072 0 0 0 2.518.09c.346-.143.651-.372.886-.663l.359.403c-.282.336-.64.6-1.045.768a3.644 3.644 0 0 1-3.061-.147 3.002 3.002 0 0 1-1.167-1.146 3.283 3.283 0 0 1-.422-1.669c-.01-.58.126-1.155.397-1.669.252-.477.63-.875 1.094-1.152a3.162 3.162 0 0 1 3.122-.006c.461.273.837.667 1.088 1.139.27.51.407 1.08.397 1.658l-.015.177Zm-4.239-2.542c-.358.199-.655.49-.861.842a2.72 2.72 0 0 0-.373 1.224h4.889a2.561 2.561 0 0 0-.367-1.218 2.38 2.38 0 0 0-2.078-1.146 2.46 2.46 0 0 0-1.21.298ZM67.947 38.115h-7.309l-1.44 3.374h-2.8l6.576-14.577h2.674l6.598 14.577H69.41l-1.463-3.374Zm-.898-2.123-2.756-6.373-2.736 6.373h5.492ZM82.947 30.952a5.12 5.12 0 0 1 2.015 2c.487.86.73 1.854.73 2.98a6.004 6.004 0 0 1-.73 2.99 5.09 5.09 0 0 1-2.016 2.008 5.93 5.93 0 0 1-2.913.708c-1.503 0-2.693-.5-3.57-1.498v5.393h-2.611V30.37h2.488v1.458a4.029 4.029 0 0 1 1.597-1.192 5.417 5.417 0 0 1 2.098-.396 5.93 5.93 0 0 1 2.912.713Zm-.837 7.497c.619-.636.929-1.476.93-2.52 0-1.045-.31-1.885-.93-2.52-.62-.635-1.41-.953-2.37-.953a3.362 3.362 0 0 0-1.692.428c-.505.285-.92.707-1.195 1.217a4.045 4.045 0 0 0 0 3.666c.275.51.69.932 1.195 1.217a3.36 3.36 0 0 0 1.692.427c.961-.003 1.752-.324 2.37-.962ZM97.276 30.952a5.12 5.12 0 0 1 2.016 2c.487.86.73 1.854.73 2.98a6.007 6.007 0 0 1-.73 2.99 5.09 5.09 0 0 1-2.016 2.008 5.93 5.93 0 0 1-2.914.708c-1.503 0-2.693-.5-3.57-1.498v5.393H88.18V30.37h2.485v1.458a4.029 4.029 0 0 1 1.598-1.192 5.415 5.415 0 0 1 2.098-.396 5.93 5.93 0 0 1 2.915.713Zm-.837 7.497c.62-.636.93-1.476.93-2.52 0-1.045-.31-1.885-.93-2.52-.62-.635-1.41-.953-2.37-.953a3.362 3.362 0 0 0-1.692.428c-.505.286-.919.707-1.195 1.217a4.058 4.058 0 0 0 0 3.666c.276.51.69.931 1.195 1.217.517.289 1.1.436 1.692.427.962-.003 1.752-.324 2.371-.962h-.001ZM109.784 41.219c-1.05-.318-1.882-.742-2.495-1.27l.94-2.104A7.377 7.377 0 0 0 110.432 39c.842.291 1.726.44 2.616.442 1.086 0 1.897-.173 2.433-.52.537-.346.805-.804.804-1.374a1.338 1.338 0 0 0-.449-1.031 3.157 3.157 0 0 0-1.138-.635 26.056 26.056 0 0 0-1.879-.52 21.91 21.91 0 0 1-2.705-.792 4.445 4.445 0 0 1-1.775-1.239c-.495-.563-.742-1.323-.741-2.28a3.868 3.868 0 0 1 .657-2.197c.439-.66 1.1-1.184 1.984-1.572.883-.389 1.966-.583 3.248-.583.887 0 1.771.111 2.63.332.794.191 1.549.513 2.235.954l-.856 2.103a8.465 8.465 0 0 0-2.005-.854 7.524 7.524 0 0 0-2.025-.292c-1.073 0-1.87.18-2.392.542-.521.36-.782.837-.783 1.43a1.303 1.303 0 0 0 .45 1.02c.333.284.72.497 1.138.626.459.153 1.086.327 1.879.52a19.94 19.94 0 0 1 2.673.781 4.588 4.588 0 0 1 1.786 1.24c.494.556.741 1.306.741 2.249a3.844 3.844 0 0 1-.657 2.187c-.439.651-1.104 1.172-1.995 1.561-.891.39-1.977.584-3.258.583a11.179 11.179 0 0 1-3.264-.463ZM128.112 40.886c-.33.261-.71.452-1.117.561-.452.127-.92.19-1.389.188-1.225 0-2.172-.318-2.84-.954-.668-.636-1.002-1.566-1.003-2.791v-5.352h-1.841v-2.082h1.838v-2.54h2.611v2.54h2.989v2.082h-2.989v5.29c0 .541.132.954.397 1.239.264.284.647.426 1.147.426a2.303 2.303 0 0 0 1.463-.457l.734 1.85ZM131.843 40.906a5.315 5.315 0 0 1-2.119-2.027 6.046 6.046 0 0 1 0-5.882 5.346 5.346 0 0 1 2.119-2.027 6.792 6.792 0 0 1 6.12 0 5.367 5.367 0 0 1 2.119 2.027 6.068 6.068 0 0 1 0 5.882 5.33 5.33 0 0 1-2.119 2.027 6.792 6.792 0 0 1-6.12 0Zm5.43-2.457c.626-.636.939-1.476.939-2.52 0-1.045-.313-1.884-.939-2.52-.627-.635-1.42-.953-2.381-.953-.96 0-1.75.318-2.369.953-.621.636-.931 1.476-.931 2.52 0 1.043.31 1.883.931 2.52.619.636 1.409.954 2.369.954.961 0 1.754-.318 2.381-.954ZM149.804 30.244v2.479a3.312 3.312 0 0 0-.605-.063c-1.017 0-1.811.295-2.381.885-.571.591-.856 1.441-.856 2.55v5.394h-2.61V30.37h2.484v1.624c.752-1.166 2.075-1.749 3.968-1.749ZM162.358 36.762h-8.75c.128.78.557 1.479 1.195 1.947.648.477 1.453.715 2.413.715 1.224 0 2.234-.402 3.029-1.207l1.398 1.603a4.7 4.7 0 0 1-1.901 1.353 6.94 6.94 0 0 1-2.589.458c-1.225 0-2.303-.243-3.237-.728a5.253 5.253 0 0 1-2.161-2.027 5.716 5.716 0 0 1-.762-2.947 5.796 5.796 0 0 1 .741-2.926 5.263 5.263 0 0 1 2.057-2.027 6.024 6.024 0 0 1 2.966-.728 5.854 5.854 0 0 1 2.912.715 5.085 5.085 0 0 1 2.005 2.02c.479.868.718 1.87.718 3.009.008.18-.006.437-.034.77Zm-7.716-3.696a3.1 3.1 0 0 0-1.055 1.967h6.329a3.064 3.064 0 0 0-1.024-1.956c-.57-.5-1.28-.75-2.129-.75a3.156 3.156 0 0 0-2.121.74Z"></path></g><defs><clipPath id="appStore_svg__a"><path fill="#fff" d="M0 0h180v54.585H0z"></path></clipPath></defs></svg></a>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-6 col-md-6 mb-4 text-center"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+    <a
+        role="button"
+        href="https://play.google.com/store/apps/details?id=ph.com.gotyme&hl=en"
+        class="dl-link google"
+        target="_blank"
+    >
+<svg viewbox="0 0 180 55" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#googlePlay_svg__a)"><path d="M173.333 1.095c3.094 0 5.6 2.574 5.6 5.75v41.067c0 3.176-2.506 5.75-5.6 5.75H6.667c-3.094 0-5.6-2.574-5.6-5.75V6.845c0-3.176 2.506-5.75 5.6-5.75h166.666Zm0-1.095H6.667C3 0 0 3.08 0 6.845v41.067c0 3.764 3 6.844 6.667 6.844h166.666c3.667 0 6.667-3.08 6.667-6.844V6.845C180 3.08 177 0 173.333 0Z" fill="#2D2D3A"></path><path d="M63.224 14.018c0 1.15-.333 2.067-1 2.737-.746.808-1.72 1.219-2.933 1.219-1.213 0-2.146-.411-2.947-1.232-.8-.822-1.2-1.848-1.2-3.053 0-1.205.4-2.231 1.2-3.053.8-.821 1.787-1.245 2.947-1.245.587 0 1.147.11 1.667.314.52.22.947.52 1.28.904l-.733.753a2.357 2.357 0 0 0-.96-.712 2.986 2.986 0 0 0-1.254-.26c-.866 0-1.613.315-2.213.93-.6.63-.894 1.41-.894 2.355 0 .945.294 1.725.894 2.355.6.616 1.333.93 2.213.93.8 0 1.454-.232 1.987-.684.533-.451.84-1.095.92-1.889H59.29v-.986h3.88c.04.22.053.425.053.617Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M59.292 9.528c-1.125 0-2.078.41-2.853 1.205-.773.795-1.16 1.786-1.16 2.956s.387 2.162 1.16 2.956c.775.796 1.674 1.192 2.853 1.192 1.18 0 2.117-.398 2.836-1.176l.002-.002.002-.001c.636-.64.96-1.519.96-2.64 0-.152-.009-.312-.033-.48h-3.634v.712h2.921l-.015.151c-.083.824-.403 1.503-.968 1.981-.56.474-1.244.716-2.071.716a3.1 3.1 0 0 1-2.308-.971v-.001c-.628-.658-.932-1.474-.932-2.45 0-.978.304-1.793.931-2.45l.001-.002a3.12 3.12 0 0 1 2.308-.97c.455 0 .9.084 1.305.27.368.152.674.37.915.638l.541-.556a3.336 3.336 0 0 0-1.144-.773 4.387 4.387 0 0 0-1.617-.305ZM56.25 10.54c.825-.847 1.846-1.286 3.04-1.286.604 0 1.18.113 1.715.324h.002l.001.001c.536.226.98.538 1.329.939l.084.096-.927.952-.093-.117a2.223 2.223 0 0 0-.907-.672h-.002l-.003-.002a2.855 2.855 0 0 0-1.198-.248c-.832 0-1.544.3-2.119.89-.573.602-.855 1.347-.855 2.258 0 .912.282 1.657.855 2.259.575.59 1.274.89 2.119.89.772 0 1.395-.224 1.901-.653.469-.397.756-.953.854-1.647h-2.889v-1.26h4.124l.02.113c.043.228.056.442.056.64 0 1.178-.342 2.133-1.038 2.835-.774.836-1.783 1.259-3.028 1.259-1.249 0-2.216-.425-3.041-1.272-.827-.849-1.24-1.91-1.24-3.15 0-1.239.413-2.3 1.24-3.15Z" fill="#2D2D3A"></path><path d="M69.372 9.584v1.013h-3.64v2.6h3.28v.987h-3.28v2.6h3.64v1.013h-4.667V9.584h4.667Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M64.572 9.447h4.934v1.287h-3.64v2.327h3.28v1.26h-3.28v2.327h3.64v1.287h-4.934V9.447Zm.267.274v7.94h4.4v-.74h-3.64v-2.874h3.28v-.712h-3.28V10.46h3.64v-.739h-4.4Z" fill="#2D2D3A"></path><path d="M73.706 10.597v7.2H72.68v-7.2h-2.24V9.584h5.494v1.013h-2.24.013Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M70.307 9.447h5.76v1.287H73.84v7.2h-1.293v-7.2h-2.24V9.447Zm3.386 1.15v-.137H75.8v-.739h-5.227v.74h2.24v7.2h.76v-7.064h.12Z" fill="#2D2D3A"></path><path d="M80.945 17.797h-1.027V9.584h1.027v8.213Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M79.785 9.447h1.294v8.488h-1.294V9.447Zm.267.274v7.94h.76V9.72h-.76Z" fill="#2D2D3A"></path><path d="M85.505 10.597v7.2h-1.027v-7.2h-2.24V9.584h5.494v1.013h-2.24.013Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M82.106 9.447h5.76v1.287h-2.227v7.2h-1.293v-7.2h-2.24V9.447Zm3.386 1.15v-.137H87.6v-.739h-5.227v.74h2.24v7.2h.76v-7.064h.12Z" fill="#2D2D3A"></path><path d="M99.318 13.689c0 1.218-.4 2.231-1.186 3.053-.8.821-1.774 1.232-2.934 1.232-1.16 0-2.133-.411-2.933-1.232-.787-.822-1.187-1.835-1.187-3.053s.4-2.231 1.187-3.053c.787-.821 1.76-1.245 2.933-1.245 1.174 0 2.134.41 2.934 1.245.786.822 1.186 1.835 1.186 3.04v.013Zm-7.173 0c0 .944.293 1.739.867 2.355.586.616 1.32.93 2.186.93.867 0 1.6-.314 2.174-.93.586-.617.88-1.397.88-2.355s-.294-1.739-.88-2.354a2.881 2.881 0 0 0-2.174-.931c-.866 0-1.6.315-2.186.93-.587.617-.867 1.41-.867 2.355Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M95.197 9.528c-1.138 0-2.077.41-2.839 1.204-.76.795-1.148 1.773-1.148 2.957s.387 2.162 1.148 2.956c.774.795 1.713 1.192 2.839 1.192 1.125 0 2.064-.397 2.838-1.192.761-.794 1.148-1.772 1.148-2.956v-.014c0-1.17-.387-2.148-1.148-2.943-.774-.808-1.7-1.204-2.838-1.204Zm-3.029 1.012c.812-.847 1.82-1.286 3.029-1.286 1.208 0 2.203.425 3.028 1.287.812.847 1.225 1.895 1.225 3.134v.014c0 1.253-.413 2.3-1.225 3.149-.826.848-1.834 1.273-3.028 1.273-1.195 0-2.202-.425-3.028-1.272v-.001c-.813-.848-1.226-1.896-1.226-3.149 0-1.253.413-2.3 1.225-3.149Zm.747.699a3.042 3.042 0 0 1 2.282-.972c.902 0 1.656.33 2.268.972.614.644.918 1.46.918 2.45 0 .99-.304 1.806-.917 2.45-.6.644-1.368.972-2.27.972-.901 0-1.669-.329-2.281-.972h-.001c-.6-.645-.904-1.474-.904-2.45 0-.974.29-1.805.905-2.45Zm2.282-.698c-.832 0-1.53.3-2.092.89-.558.586-.828 1.343-.828 2.258 0 .913.282 1.672.829 2.26.56.588 1.26.889 2.09.889.833 0 1.53-.301 2.078-.889v-.001c.56-.588.843-1.332.843-2.259 0-.926-.283-1.671-.842-2.259a2.75 2.75 0 0 0-2.078-.89Z" fill="#2D2D3A"></path><path d="M101.786 17.797h-1.026V9.584h1.253l3.893 6.393h.04l-.04-1.588V9.584h1.027v8.213h-1.067l-4.066-6.694h-.04l.04 1.588v5.12l-.014-.014Z" fill="#2D2D3A"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M100.627 9.447h1.461l3.715 6.1-.029-1.156V9.447h1.293v8.488h-1.274l-3.888-6.401.029 1.156v5.452l-.202-.207h-1.105V9.447Zm1.04 8.214v-4.968l-.044-1.726h.251l4.067 6.694h.859V9.72h-.76v4.666l.044 1.727h-.251L101.94 9.72h-1.046v7.94h.773Z" fill="#2D2D3A"></path><path d="M90.854 29.772c-3.133 0-5.693 2.45-5.693 5.818 0 3.367 2.56 5.817 5.693 5.817 3.134 0 5.694-2.464 5.694-5.817 0-3.354-2.56-5.818-5.694-5.818Zm0 9.35c-1.72 0-3.2-1.452-3.2-3.532 0-2.081 1.48-3.532 3.2-3.532 1.72 0 3.2 1.437 3.2 3.532 0 2.094-1.48 3.531-3.2 3.531Zm-12.413-9.35c-3.133 0-5.693 2.45-5.693 5.818 0 3.367 2.56 5.817 5.693 5.817 3.133 0 5.693-2.464 5.693-5.817 0-3.354-2.56-5.818-5.693-5.818Zm0 9.35c-1.72 0-3.2-1.452-3.2-3.532 0-2.081 1.48-3.532 3.2-3.532 1.72 0 3.2 1.437 3.2 3.532 0 2.094-1.48 3.531-3.2 3.531Zm-14.773-7.57v2.463h5.76c-.174 1.383-.627 2.41-1.307 3.108-.84.862-2.147 1.807-4.44 1.807-3.547 0-6.32-2.93-6.32-6.571 0-3.641 2.773-6.57 6.32-6.57 1.907 0 3.307.766 4.333 1.765l1.694-1.738c-1.44-1.41-3.347-2.492-6.04-2.492-4.854 0-8.934 4.052-8.934 9.049 0 4.996 4.08 9.048 8.934 9.048 2.626 0 4.6-.876 6.146-2.532 1.587-1.63 2.08-3.93 2.08-5.777 0-.575-.04-1.109-.133-1.547h-8.093v-.014Zm60.413 1.916c-.467-1.3-1.907-3.71-4.853-3.71-2.947 0-5.347 2.355-5.347 5.818 0 3.258 2.4 5.818 5.627 5.818 2.6 0 4.106-1.63 4.72-2.574l-1.934-1.328c-.64.972-1.52 1.616-2.786 1.616-1.267 0-2.174-.589-2.747-1.766l7.587-3.217-.254-.657h-.013Zm-7.733 1.944c-.067-2.245 1.693-3.395 2.96-3.395.986 0 1.826.506 2.106 1.232l-5.066 2.163Zm-6.16 5.64h2.493V23.94h-2.493v17.111Zm-4.08-9.994h-.08c-.56-.684-1.627-1.3-2.987-1.3-2.84 0-5.44 2.56-5.44 5.845 0 3.286 2.6 5.804 5.44 5.804 1.347 0 2.427-.615 2.987-1.327h.08v.835c0 2.231-1.16 3.422-3.027 3.422-1.52 0-2.467-1.123-2.853-2.067l-2.174.93c.627 1.548 2.28 3.437 5.027 3.437 2.92 0 5.387-1.766 5.387-6.065V30.114h-2.36v.944Zm-2.854 8.05c-1.72 0-3.16-1.479-3.16-3.505s1.44-3.545 3.16-3.545c1.72 0 3.027 1.506 3.027 3.545 0 2.04-1.333 3.505-3.027 3.505Zm32.507-15.168h-5.96v17.111h2.493v-6.488h3.48c2.76 0 5.467-2.053 5.467-5.311s-2.707-5.312-5.467-5.312h-.013Zm.067 8.255h-3.534v-5.873h3.534c1.866 0 2.92 1.588 2.92 2.93 0 1.341-1.054 2.929-2.92 2.929v.014Zm15.373-2.464c-1.8 0-3.667.821-4.44 2.614l2.213.945c.467-.945 1.347-1.26 2.267-1.26 1.28 0 2.6.794 2.613 2.204v.178c-.453-.26-1.413-.657-2.6-.657-2.386 0-4.8 1.342-4.8 3.847 0 2.286 1.947 3.764 4.134 3.764 1.666 0 2.6-.766 3.173-1.67h.08v1.315h2.4v-6.558c0-3.039-2.213-4.736-5.067-4.736l.027.014Zm-.307 9.377c-.813 0-1.946-.425-1.946-1.451 0-1.314 1.413-1.821 2.64-1.821 1.093 0 1.613.246 2.266.575-.186 1.588-1.52 2.71-2.96 2.71v-.013Zm14.107-9.008-2.853 7.42h-.08l-2.96-7.42h-2.68l4.44 10.377-2.534 5.763h2.6l6.84-16.14H165.001Zm-22.413 10.951h2.493v-17.11h-2.493v17.11Z" fill="#2D2D3A"></path><path d="m27.628 26.584-14.2 15.469c.44 1.683 1.933 2.915 3.706 2.915a3.67 3.67 0 0 0 1.947-.547l.04-.027 15.973-9.46-7.48-8.364.014.014Z" fill="#EA4335"></path><path d="M41.989 23.96h-.014l-6.893-4.12-7.773 7.105 7.8 8.008 6.866-4.066a3.96 3.96 0 0 0 2.014-3.463c0-1.492-.8-2.793-2-3.45v-.014Z" fill="#FBBC04"></path><path d="M13.428 12.705c-.08.329-.133.657-.133 1.013v27.323c0 .356.04.685.133 1.013l14.68-15.071-14.68-14.278Z" fill="#4285F4"></path><path d="m27.734 27.38 7.347-7.543-15.96-9.5a3.752 3.752 0 0 0-1.987-.562c-1.773 0-3.266 1.246-3.706 2.916l14.306 14.675v.014Z" fill="#34A853"></path></g><defs><clipPath id="googlePlay_svg__a"><path fill="#fff" d="M0 0h180v54.756H0z"></path></clipPath></defs></svg></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-8 col-md- mb-4 order-lg-2 order-1 offset-lg-1 offset-0"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >  
+  
+  
+  <div class="row">
+    
+    <div class="col-lg-3 col-12 footer-mobile-header pb-2">
+      <a class="d-lg-none nav-link p-lg-0 py-3 d-flex align-items-center justify-content-between dropdown-toggle" href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-features" aria-expanded="false">
+        <p class="mb-0"><span><strong><span style="color: #ffffff;">Features</span></strong></span></p>
+        <i class="fa-solid fa-angle-down ms-1" style="color: #ffffff;"></i>
+      </a>
+      
+      <p class="d-none d-lg-block "><span><strong><span style="color: #ffffff;">Features</span></strong></span></p>
+      
+      <div class="collapse d-lg-block mb-2" id="collapse-features">
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/save-and-invest">Save & Invest</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/move-money">Move Money</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/shop">Shop</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/moretyme">MoreTyme</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/service">Service</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/promos">Promos</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-3 col-12 footer-mobile-header pb-2">
+      <a class="d-lg-none nav-link p-lg-0 py-3 d-flex align-items-center justify-content-between dropdown-toggle" href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-company" aria-expanded="false">
+        <p class="mb-0"><span><strong><span style="color: #ffffff;">Company</span></strong></span></p>
+        <i class="fa-solid fa-angle-down ms-1" style="color: #ffffff;"></i>
+      </a>
+      
+      <p class="d-none d-lg-block "><span><strong><span style="color: #ffffff;">Company</span></strong></span></p>
+      
+      <div class="collapse d-lg-block mb-2" id="collapse-company">
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/about-us">About Us</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="media">Media</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/stories">Stories</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/news">News</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/videos">Videos</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-3 col-12 footer-mobile-header pb-2">
+      <a class="d-lg-none nav-link p-lg-0 py-3 d-flex align-items-center justify-content-between dropdown-toggle" href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-help" aria-expanded="false">
+        <p class="mb-0"><span><strong><span style="color: #ffffff;">Help</span></strong></span></p>
+        <i class="fa-solid fa-angle-down ms-1" style="color: #ffffff;"></i>
+      </a>
+      
+      <p class="d-none d-lg-block "><span><strong><span style="color: #ffffff;">Help</span></strong></span></p>
+      
+      <div class="collapse d-lg-block mb-2" id="collapse-help">
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/help">Help Center</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/kiosk-locations">Kiosk Locations</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/help/contact-us">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-3 col-12 footer-mobile-header pb-2">
+      <a class="d-lg-none nav-link p-lg-0 py-3 d-flex align-items-center justify-content-between dropdown-toggle" href="#" role="button" data-bs-toggle="collapse" data-bs-target="#collapse-legal-and-governance" aria-expanded="false">
+        <p class="mb-0"><span><strong><span style="color: #ffffff;">Legal & Governance</span></strong></span></p>
+        <i class="fa-solid fa-angle-down ms-1" style="color: #ffffff;"></i>
+      </a>
+      
+      <p class="d-none d-lg-block "><span><strong><span style="color: #ffffff;">Legal & Governance</span></strong></span></p>
+      
+      <div class="collapse d-lg-block mb-2" id="collapse-legal-and-governance">
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/terms-and-conditions">Terms & Conditions</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/privacy-policy">Privacy Policy</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/cookie-policy">Cookie Policy</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/corporate-governance">Corporate Governance</a>
+        </div>
+        <div class="py-2 footer-link-pe">
+          <a style="color: #c0c0c4; font-size:16px;" href="/consumer-protection">Consumer Protection</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<style>
+  .dropdown-toggle::after {
+    display: none;
+  }
+  
+  @media (max-width: 992px) {
+    .footer-mobile-header {
+      border-bottom: 1px solid #3C424D;
+    }
+  }
+</style></div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-12 col-md- mb-4 order-4"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <p><img style="display: block; margin-left: auto; margin-right: auto;" src="/static-assets/images/footer/gokongwei-footer.svg" alt="Gonkongwei logo" width="303" height="50"></p>
+<p style="color: #ffffff; text-align: center; font-size: 14px;">A Gokongwei Group and Tyme Group bank.</p>
+<p style="color: #c0c4d0; text-align: center; font-size: 14px;">21st Floor Giga Tower, Bridgetowne, C5 Road, Brgy Ugong Norte, E. Rodriguez Jr. Ave 1110 Quezon City, Philippines</p>
+<p style="color: #c0c4d0; text-align: center; font-size: 14px;">&copy; 2026 GoTyme Bank Corporation. All Rights Reserved.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row "
+    >      
+    <div
+        style=""
+        class="col-lg-8 col-md- mb-4 d-none"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+    <div
+        class="container-fluid"
+    >    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row "
+    >      
+    <div
+        style=""
+        class="col-lg-9 col-md- mb-4"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <p><img src="/static-assets/images/logos.png" alt="gotyme-footer.png" width="292" height="143"></p>
+<p style="line-height: 1.2;"><span style="color: #ffffff;">A Gokongwei Group and Tyme Group Bank</span></p>
+<p style="line-height: 1.2;"><span style="color: #ffffff;">21st Floor Giga Tower, Bridgetowne, C5 Road,</span><br><span style="color: #ffffff;">Brgy Ugong Norte, E. Rodriguez Jr. Ave 1110 Quezon City, Philippines</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-3 col-md- mb-4"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/terms-and-conditions">Terms &amp; Conditions</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/privacy-policy">Privacy Policy</a></span></p>
+<p><span style="color: #c0c0c4;"><a style="color: #c0c0c4;" href="/cookie-policy">Cookie Policy</a></span></p>
+<p><br></p>
+<p><span style="color: #c0c0c4;"><img src="/static-assets/images/corseal2025png.png" alt="corseal2025png.png" width="83" height="154"></span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-4 col-md- mb-4 d-none"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <p style="line-height: 1.2;"><span style="color: #c0c0c4;">GoTyme Bank is regulated by the Bangko Sentral ng Pilipinas (<a href="https://www.bsp.gov.ph" target="_blank" rel="noopener"><span style="text-decoration: underline; color: #ced4d9;">https://www.bsp.gov.ph</span></a>). For any concerns, please contact us through our in-app chat, by email (<span style="text-decoration: underline;">help@gotyme.com.ph</span>), by dialing our hotline at #468888, or through our valid social media accounts.</span></p>
+<p style="line-height: 1.2;"><span style="color: #c0c0c4;">Deposits are insured by PDIC up to P1,000,000 per depositor.</span></p>
+<p style="line-height: 1.2;"><span style="color: #c0c0c4;">GoTyme Bank is a Gokongwei Group bank and a joint venture among entities of the Gokongwei Group and multi-country digital banking group Tyme.</span></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style="background-color: #3C424D;"
+        class="col-lg-8 col-md- rounded-top-5 offset-lg-2"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+    <div
+        class="container-fluid"
+    >    <div
+    >
+
+    <div
+        style="background-image: url();  background-repeat: no-repeat; background-size: cover; background-position: 50%; "
+        id=""
+        class="row py-5 px-lg-5 container--main"
+    >      
+    <div
+        style=""
+        class="col-lg-8 col-md- order-2 order-lg-1 text-center text-lg-start"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="" style="">
+    <div
+        style=""
+        class=""
+    >      <p style="color: #c0c4d0; font-size: 14px;"><strong>GoTyme Bank</strong> is regulated by the Bangko Sentral ng Pilipinas (<a style="color: #c0c4d0; text-decoration: underline;" href="https://www.bsp.gov.ph" target="_blank" rel="noopener">https://www.bsp.gov.ph</a>). For any concerns, please contact us through our in-app chat, by email (<a style="color: #c0c4d0; text-decoration: underline;" href="mailto:help@gotyme.com.ph">help@gotyme.com.ph</a>), by dialing our hotline at #468888, or through our valid social media accounts.</p>
+<p style="color: #c0c4d0; font-size: 14px;">Deposits are insured by PDIC up to P1,000,000 per depositor.</p>
+<p style="color: #c0c4d0; margin: 0; font-size: 14px;">GoTyme Bank is a Gokongwei Group bank and a joint venture among entities of the Gokongwei Group and multi-country digital banking group Tyme.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+    <div
+        style=""
+        class="col-lg-4 col-md- order-lg-2"
+    >    <div
+        class="h-100 "
+        data-craftercms-type="collection"
+    >    <div
+        class="h-100 "
+    >
+
+<div class="h-100 d-flex align-items-center justify-content-lg-end justify-content-center" style="">
+    <div
+        style=""
+        class=""
+    >      <p class="d-flex justify-content-evenly gap-4"><img src="/static-assets/images/footer/seal-registration-2026.png" alt="" width="72" height="133"><img src="/static-assets/images/footer/time-100-footer.png" alt="" width="108" height="135"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+    </div>
+</footer>
+
+<!-- Other script tags -->
+<!-- Google Tag Manager (noscript) -> noscript. <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KVJXVRHZ" height="0" width="0" style="display:none;visibility:hidden"> <!- End Google Tag Manager (noscript) -->
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--<script src="/static-assets/owlcarousel/js/owl.carousel.min.js" integrity="sha256-PzxDPzQ/Iwk/Pz8/FD8/Bz8/Pz8iAj8/fyFqPz9bcE0NCg==" crossorigin="anonymous"></script>
+<script src="/static-assets/owlcarousel/js/carousel-custom.js" integrity="sha256-UT8/bXsyMT8APxo/P1Y/Pz8/Pz9nPz8/ej8/Py5APz8NCg==" crossorigin="anonymous"></script>-->
+<!--<script src="https://kit.fontawesome.com/4c8057f217.js" crossorigin="anonymous"></script>-->
+<script src="/static-assets/owlcarousel/js/owl.carousel.min.js" crossorigin="anonymous"></script>
+<script src="/static-assets/owlcarousel/js/carousel-custom.js" crossorigin="anonymous"></script>
+<script src="/static-assets/owlcarousel/js/carousel-tile-slider.js" crossorigin="anonymous"></script>
+<script src="/static-assets/owlcarousel/js/auto-tile-slider.js" crossorigin="anonymous"></script>
+<script src="/static-assets/js/navbar.js" crossorigin="anonymous"></script>
+<script src="/static-assets/js/shop-partner-logos.js" crossorigin="anonymous"></script>
+<script src="/static-assets/js/article.js" crossorigin="anonymous"></script>
+<script src="/static-assets/js/moengage-event.js" crossorigin="anonymous"></script>
+<script src="/static-assets/js/footer.js" crossorigin="anonymous"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.querySelector('.gotyme-table-scroll-container');
+  const scrollbar = document.querySelector('.custom-scrollbar');
+  const thumb = document.querySelector('.custom-scrollbar-thumb');
+
+
+  if (!container || !scrollbar || !thumb) {
+    return;
+  }
+
+  function updateThumb() {
+    const maxScrollLeft = container.scrollWidth - container.clientWidth;
+
+
+    if (maxScrollLeft <= 0) {
+      scrollbar.style.display = 'none';
+      container.scrollLeft = 0;
+      return;
+    }
+
+    scrollbar.style.display = 'block';
+
+    const visibleRatio = container.clientWidth / container.scrollWidth;
+    const thumbWidth = Math.max(visibleRatio * scrollbar.offsetWidth, 50);
+
+    const scrollPercentage = container.scrollLeft / maxScrollLeft;
+    const maxThumbPosition = scrollbar.offsetWidth - thumbWidth;
+    const thumbPosition = scrollPercentage * maxThumbPosition;
+
+    thumb.style.width = thumbWidth + 'px';
+    thumb.style.left = thumbPosition + 'px';
+  }
+
+
+  container.addEventListener('scroll', updateThumb);
+
+
+  let isDragging = false;
+  let startX = 0;
+  let startScrollLeft = 0;
+
+  thumb.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startX = e.clientX;
+    startScrollLeft = container.scrollLeft;
+    e.preventDefault();
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+    const deltaX = e.clientX - startX;
+    const thumbWidth = thumb.offsetWidth;
+    const maxThumbPosition = scrollbar.offsetWidth - thumbWidth;
+    const maxScrollLeft = container.scrollWidth - container.clientWidth;
+    const scrollRatio = maxScrollLeft / maxThumbPosition;
+    container.scrollLeft = startScrollLeft + deltaX * scrollRatio;
+  });
+
+  document.addEventListener('mouseup', () => {
+    isDragging = false;
+  });
+
+
+  scrollbar.addEventListener('click', (e) => {
+    if (e.target === scrollbar) {
+      const rect = scrollbar.getBoundingClientRect();
+      const clickX = e.clientX - rect.left;
+      const thumbWidth = thumb.offsetWidth;
+      const maxThumbPosition = scrollbar.offsetWidth - thumbWidth;
+      const clickPercentage = (clickX - thumbWidth / 2) / maxThumbPosition;
+      const maxScrollLeft = container.scrollWidth - container.clientWidth;
+      container.scrollLeft = clickPercentage * maxScrollLeft;
+    }
+  });
+
+
+  updateThumb();
+  window.addEventListener('resize', updateThumb);
+
+
+  setTimeout(updateThumb, 100);
+});
+</script>
+
+
+
+
+
+
+  </body>
+</html>
